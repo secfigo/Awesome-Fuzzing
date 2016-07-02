@@ -19,7 +19,7 @@ A list of fuzzing resources ( Books, courses - free and paid, videos, tools, tut
   + [Symbolic Execution + SAT/SMT Solvers](#smt-solvers)
   + [Essential Tools (generic)](#essential-tools)
 - [Vulnerable Applications](#vuln-apps)
-
+- [Contributing](#contribution)
 
 Awesome Fuzzing Resources
 -------------
@@ -188,5 +188,9 @@ Exploit-DB - https://www.exploit-db.com
 (search and pick the exploits, which have respective apps available for download, reproduce the exploit by using fuzzer of your choice)
 
 
+<a name="contribution"/>
+### Contributing
+
+[Please refer the guidelines at contributing.md for details](Contributing.md).
 
 
