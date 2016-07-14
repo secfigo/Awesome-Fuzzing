@@ -172,6 +172,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [zzuf](https://github.com/samhocevar/zzuf) - A transparent application input fuzzer. It works by intercepting file operations and changing random bits in the program's input.
 
+[radamsa](https://github.com/aoh/radamsa) - A general purpose fuzzer and test case generator.
+
 <a name="network-protocol-fuzzers" />
 ### Network Protocol Fuzzers
 
