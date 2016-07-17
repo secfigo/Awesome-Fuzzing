@@ -131,6 +131,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ##### AFL Fuzzer related tutorials
 [Fuzzing workflows; a fuzz job from start to finish](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/) - by @BrandonPrry.
 
+[Fuzzing capstone using AFL persistent mode](https://toastedcornflakes.github.io/articles/fuzzing_capstone_with_afl.html) - by @toasted_flakes
 
 ##### Spike Fuzzer related tutorials
 
@@ -168,6 +169,12 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [rmadair](http://rmadair.github.io/fuzzer/) - mutation based file fuzzer that uses PyDBG to monitor for signals of interest.
 
+[hongfuzz](https://github.com/google/honggfuzz) - A general-purpose, easy-to-use fuzzer with interesting analysis options. Supports feedback-driven fuzzing based on code coverage. Supports GNU/Linux, FreeBSD, Mac OSX and Android.
+
+[zzuf](https://github.com/samhocevar/zzuf) - A transparent application input fuzzer. It works by intercepting file operations and changing random bits in the program's input.
+
+[radamsa](https://github.com/aoh/radamsa) - A general purpose fuzzer and test case generator.
+
 <a name="network-protocol-fuzzers" />
 ### Network Protocol Fuzzers
 
@@ -182,6 +189,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [Spike](http://www.immunitysec.com/downloads/SPIKE2.9.tgz) - A fuzzer development framework like sulley, a predecessor of sulley. 
 
 [Metasploit Framework](https://www.rapid7.com/products/metasploit/download.jsp) - A framework which contains some fuzzing capabilities via Auxiliary modules. 
+
+[Nightmare](https://github.com/joxeankoret/nightmare) - A distributed fuzzing testing suite with web administration, supports fuzzing using network protocols.
 
 <a name="taint-analysis" />
 ### Taint Analysis ( How user input affects the execution)
