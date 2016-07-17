@@ -271,7 +271,7 @@ https://files.fuzzing-project.org/
 
 [Please refer the guidelines at contributing.md for details](Contributing.md).
 
-Thanks to the following folks to made contributions to this project. 
+Thanks to the following folks who made contributions to this project. 
 + [Tim Strazzere](https://twitter.com/timstrazz)
-+ [jksecurity](https://github.comecurity)
++ [jksecurity](https://github.com/jksecurity)
 
