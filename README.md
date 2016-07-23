@@ -66,6 +66,7 @@ IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Dis
 
 [SANS 660/760 Advanced Exploit Development for Penetration Testers](https://www.sans.org/course/advance-exploit-development-pentetration-testers)
 
+[Exodus Intelligence - Vulnerability development master class](https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course/)
 
 <a name="videos" />
 ## Videos
@@ -270,4 +271,7 @@ https://files.fuzzing-project.org/
 
 [Please refer the guidelines at contributing.md for details](Contributing.md).
 
+Thanks to the following folks who made contributions to this project. 
++ [Tim Strazzere](https://twitter.com/timstrazz)
++ [jksecurity](https://github.com/jksecurity)
 
