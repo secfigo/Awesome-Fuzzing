@@ -203,6 +203,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Nightmare](https://github.com/joxeankoret/nightmare) - A distributed fuzzing testing suite with web administration, supports fuzzing using network protocols.
 
+[rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - A dumb protocol-unaware packet fuzzer/replayer.
+
 <a name="Misc" />
 ### Misc. like Kernel Fuzzers, general purpose fuzzer etc.,
 [KernelFuzzer](https://github.com/mwrlabs/KernelFuzzer) - Cross Platform Kernel Fuzzer Framework.
