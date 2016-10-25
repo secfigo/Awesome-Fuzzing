@@ -89,6 +89,8 @@ IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Dis
 
 [Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - by Atte Kettunen
 
+[Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
+
 <a name="tutorials" />
 ## Tutorials/Blogs.
 
@@ -137,6 +139,19 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [RAM disks and saving your SSD from AFL Fuzzing](http://cipherdyne.org/blog/2014/12/ram-disks-and-saving-your-ssd-from-afl-fuzzing.html)
 
+[Bug Hunting with American Fuzzy Lop](https://josephg.com/blog/bug-hunting-with-american-fuzzy-lop/)
+
+[Advanced usage of American Fuzzy Lop with real world examples](http://volatileminds.net/2015/07/01/advanced-afl-usage.html)
+
+[Segfaulting Python with afl-fuzz](http://tomforb.es/segfaulting-python-with-afl-fuzz)
+
+[Fuzzing Perl: A Tale of Two American Fuzzy Lops](http://www.geeknik.net/71nvhf1fp)
+
+[Fuzzing With AFL-Fuzz, a Practical Example ( AFL vs Binutils )](https://www.evilsocket.net/2015/04/30/fuzzing-with-afl-fuzz-a-practical-example-afl-vs-binutils/)
+
+[The Importance of Fuzzing...Emulators?](https://mgba.io/2016/09/13/fuzzing-emulators/)
+
+[How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html)
 
 ##### Spike Fuzzer related tutorials
 
