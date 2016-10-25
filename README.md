@@ -303,6 +303,11 @@ https://files.fuzzing-project.org/
 
 [MS Office file format documentation](https://www.microsoft.com/en-us/download/details.aspx?id=14565)
 
+<a name="Anti-Fuzzing"/>
+## Anti-Fuzzing
+
+[Introduction to Anti-Fuzzing: A Defence In-Depth Aid](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
+
 <a name="contribution"/>
 ## Contributing
 
