@@ -19,6 +19,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Symbolic Execution + SAT/SMT Solvers](#smt-solvers)
   + [Essential Tools (generic)](#essential-tools)
 - [Vulnerable Applications](#vuln-apps)
+- [Anti-Fuzzing](#antifuzz)
 - [Contributing](#contribution)
 
 Awesome Fuzzing Resources
@@ -89,6 +90,8 @@ IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Dis
 
 [Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - by Atte Kettunen
 
+[Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
+
 <a name="tutorials" />
 ## Tutorials/Blogs.
 
@@ -137,6 +140,21 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [RAM disks and saving your SSD from AFL Fuzzing](http://cipherdyne.org/blog/2014/12/ram-disks-and-saving-your-ssd-from-afl-fuzzing.html)
 
+[Bug Hunting with American Fuzzy Lop](https://josephg.com/blog/bug-hunting-with-american-fuzzy-lop/)
+
+[Advanced usage of American Fuzzy Lop with real world examples](http://volatileminds.net/2015/07/01/advanced-afl-usage.html)
+
+[Segfaulting Python with afl-fuzz](http://tomforb.es/segfaulting-python-with-afl-fuzz)
+
+[Fuzzing Perl: A Tale of Two American Fuzzy Lops](http://www.geeknik.net/71nvhf1fp)
+
+[Fuzzing With AFL-Fuzz, a Practical Example ( AFL vs Binutils )](https://www.evilsocket.net/2015/04/30/fuzzing-with-afl-fuzz-a-practical-example-afl-vs-binutils/)
+
+[The Importance of Fuzzing...Emulators?](https://mgba.io/2016/09/13/fuzzing-emulators/)
+
+[How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html
+
+[Filesystem Fuzzing with American Fuzzy lop](http://events.linuxfoundation.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
 
 ##### Spike Fuzzer related tutorials
 
@@ -202,6 +220,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [Metasploit Framework](https://www.rapid7.com/products/metasploit/download.jsp) - A framework which contains some fuzzing capabilities via Auxiliary modules. 
 
 [Nightmare](https://github.com/joxeankoret/nightmare) - A distributed fuzzing testing suite with web administration, supports fuzzing using network protocols.
+
+[rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - A dumb protocol-unaware packet fuzzer/replayer.
 
 <a name="Misc" />
 ### Misc. like Kernel Fuzzers, general purpose fuzzer etc.,
@@ -285,6 +305,11 @@ https://files.fuzzing-project.org/
 [PDF Test Corpus from Mozilla] (https://github.com/mozilla/pdf.js/tree/master/test/pdfs)
 
 [MS Office file format documentation](https://www.microsoft.com/en-us/download/details.aspx?id=14565)
+
+<a name="antifuzz"/>
+## Anti-Fuzzing
+
+[Introduction to Anti-Fuzzing: A Defence In-Depth Aid](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
 
 <a name="contribution"/>
 ## Contributing
