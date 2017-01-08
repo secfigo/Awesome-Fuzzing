@@ -299,6 +299,8 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 Exploit-DB - https://www.exploit-db.com
 (search and pick the exploits, which have respective apps available for download, reproduce the exploit by using fuzzer of your choice)
 
+PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
+
 ##### Samples files for seeding during fuzzing:
 https://files.fuzzing-project.org/
 
