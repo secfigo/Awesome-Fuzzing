@@ -159,6 +159,12 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Filesystem Fuzzing with American Fuzzy lop](http://events.linuxfoundation.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
 
+##### libFuzzer Fuzzer related tutorials
+
+[libFuzzer Tutorial](tutorial.libfuzzer.info)
+
+[libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
+
 ##### Spike Fuzzer related tutorials
 
 [Fuzzing with Spike to find overflows](http://null-byte.wonderhowto.com/how-to/hack-like-pro-build-your-own-exploits-part-3-fuzzing-with-spike-find-overflows-0162789/)
@@ -234,6 +240,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Hodor Fuzzer](https://github.com/nccgroup/hodor) - Yet Another general purpose fuzzer.
 
+[libFuzzer](http://libfuzzer.info) - In-process, coverage-guided, evolutionary fuzzing engine for targets written in C/C++.
+
+[syzkaller](https://github.com/google/syzkaller) - Distributed, unsupervised, coverage-guided Linux syscall fuzzer.
+
 <a name="taint-analysis" />
 ### Taint Analysis ( How user input affects the execution)
 
@@ -307,9 +317,11 @@ PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
 ##### Samples files for seeding during fuzzing:
 https://files.fuzzing-project.org/
 
-[PDF Test Corpus from Mozilla] (https://github.com/mozilla/pdf.js/tree/master/test/pdfs)
+[PDF Test Corpus from Mozilla](https://github.com/mozilla/pdf.js/tree/master/test/pdfs)
 
 [MS Office file format documentation](https://www.microsoft.com/en-us/download/details.aspx?id=14565)
+
+[Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - Set of tests for fuzzing engines. Includes different well-known bugs such as Heartbleed, c-ares $100K bug and others.
 
 <a name="antifuzz"/>
 ## Anti-Fuzzing
