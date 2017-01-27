@@ -161,7 +161,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ##### libFuzzer Fuzzer related tutorials
 
-[libFuzzer Tutorial](tutorial.libfuzzer.info)
+[libFuzzer Tutorial](http://tutorial.libfuzzer.info)
 
 [libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
 
