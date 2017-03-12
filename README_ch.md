@@ -1,7 +1,7 @@
 ﻿Fuzzing 大合集 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===================
 
-A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
+这是一个在学习 fuzzing 的最初阶段最好的有关 fuzzing 的资源合集（书籍、课程、视频、教程等等）
 
 ### Table of Contents
 - [书籍](#书籍)
