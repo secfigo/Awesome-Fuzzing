@@ -9,32 +9,32 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
    + [Free](#free)
    + [Paid](#paid)
 - [Videos](#videos)
-  + [NYU Poly Course videos](#nyu-poly-videos)
-  + [Conference talks/tutorials on Fuzzing](#conf-talks-tutorials)
-- [Tutorials](#tutorials)
+  + [NYU Poly Course videos](#nyu-poly-course-videos)
+  + [Conference talks and tutorials](#conference-talks-and-tutorials)
+- [Tutorials and Blogs](#tutorials-and-blogs)
 - [Tools](#tools)
   + [File Format Fuzzers](#file-format-fuzzers)
   + [Network Protocol Fuzzers](#network-protocol-fuzzers)
   + [Taint Analysis](#taint-analysis)
-  + [Symbolic Execution + SAT/SMT Solvers](#smt-solvers)
-  + [Essential Tools (generic)](#essential-tools)
-- [Vulnerable Applications](#vuln-apps)
-- [Anti-Fuzzing](#antifuzz)
-- [Contributing](#contribution)
+  + [Symbolic Execution SAT and SMT Solvers](#symbolic-execution-sat-and-smt-solvers)
+  + [Essential Tools](#essential-tools)
+- [Vulnerable Applications](#vulnerable-applications)
+- [Anti-Fuzzing](#anti-fuzzing)
+- [Contributing](#contributing)
 
-Awesome Fuzzing Resources
--------------
-<a name="books" />
+
+# Awesome Fuzzing Resources
+
 ## Books
+
 *Books on fuzzing*
+- [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) by Michael Sutton, Adam Greene, Pedram Amini.
 
-+ [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) by Michael Sutton, Adam Greene, Pedram Amini.
+- [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) by Ari Takanen, Charles Miller, and Jared D Demott.
 
-+ [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) by Ari Takanen, Charles Miller, and Jared D Demott.
+- [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) by by Gadi Evron and Noam Rathaus.
 
-+ [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) by by Gadi Evron and Noam Rathaus.
-
-+ [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) by Justin Seitz.
+- [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) by Justin Seitz.
 
 
 > **Note:** Chapter(s) in the following books are dedicated to fuzzing.
@@ -43,14 +43,14 @@ Awesome Fuzzing Resources
 
 > - [iOS Hacker's Handbook - Chapter 1](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123/) Charles Miller, Dino DaiZovi, Dion Blazakis, Ralf-Philip Weinmann, and Stefan Esser.
 
-IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler.
+> - [IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler](https://www.amazon.com/IDA-Pro-Book-Unofficial-Disassembler-ebook/dp/B005EI84TM)
 
-<a name="courses" />
+
 ## Courses
 
 *Courses/Training videos on fuzzing*
 
-<a name="free" />
+
 ### Free  
 
 [NYU Poly ( see videos for more )](https://vimeo.com/5236104 ) - Made available freely by Dan Guido.
@@ -61,20 +61,21 @@ IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Dis
 
 [Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - by W. Owen Redwood and Prof. Xiuwen Liu. 
 
-<a name="paid" />
-### Paid ( $$$ ) 
+### Paid
+
 [Offensive Security, Cracking The Perimeter ( CTP ) and Advanced Windows Exploitation ( AWE )](https://www.offensive-security.com/information-security-training/)
 
 [SANS 660/760 Advanced Exploit Development for Penetration Testers](https://www.sans.org/course/advance-exploit-development-pentetration-testers)
 
 [Exodus Intelligence - Vulnerability development master class](https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course/)
 
-<a name="videos" />
+
 ## Videos
 
 *Videos talking about fuzzing techniques, tools and best practices*
-<a name="nyu-poly-videos" />
-### NYU Poly Course videos (from Dan Guido)
+
+
+### NYU Poly Course videos
 [Fuzzing 101 (Part 1)](https://vimeo.com/5236104) - by Mike Zusman.
 
 [Fuzzing 101 (Part 2)](https://vimeo.com/5237484) - by Mike Zusman.
@@ -83,19 +84,18 @@ IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Dis
 
 [Fuzzing - Software Security Course on Coursera](https://www.coursera.org/learn/software-security/lecture/VgyOn/fuzzing) - by University of Maryland.
 
-<a name="conf-talks-tutorials" />
-### Conference talks/tutorials on Fuzzing
+### Conference talks and tutorials
 [Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos. 
-
 
 [Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - by Atte Kettunen
 
 [Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
 
-<a name="tutorials" />
-## Tutorials/Blogs.
+
+## Tutorials and Blogs
 
 *Tutorials and blogs which explain methodology, techniques and best practices of fuzzing*
+
 ### [2016 articles]
 
 [Effective File Format Fuzzing](http://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
@@ -125,15 +125,21 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linux.com/blog/7-things-consider-fuzzing-large-open-source-project) - by Emily Ratliff.
 
+
 ##### From Fuzzing to Exploit:
 [From fuzzing to 0-day](https://blog.techorganic.com/2014/05/14/from-fuzzing-to-0-day/) - by Harold Rodriguez(@superkojiman).
 
 [From crash to exploit](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team. 
 
 ##### Peach Fuzzer related tutorials
+
 [Getting Started with Peach](http://community.peachfuzzer.com/v2/PeachQuickstart.html)
-[Fuzzing with Peach Part 1](http://www.flinkd.org/2011/07/fuzzing-with-peach-part-1/) - by Jason Kratzer of corelan team.
-[Fuzzing with Peach Part 2](http://www.flinkd.org/2011/11/fuzzing-with-peach-part-2-fixups-2/) - by Jason Kratzer of corelan team. 
+
+[Fuzzing with Peach Part 1](http://www.flinkd.org/2011/07/fuzzing-with-peach-part-1/) - by Jason Kratzer of corelan team
+
+
+[Fuzzing with Peach Part 2](http://www.flinkd.org/2011/11/fuzzing-with-peach-part-2-fixups-2/) - by Jason Kratzer of corelan team.
+
 [Auto generation of Peach pit files/fuzzers](http://doc.netzob.org/en/latest/tutorials/peach.html) - by Frédéric Guihéry, Georges Bossert.
 
 ##### AFL Fuzzer related tutorials
@@ -155,9 +161,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [The Importance of Fuzzing...Emulators?](https://mgba.io/2016/09/13/fuzzing-emulators/)
 
-[How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html
+[How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html)
 
 [Filesystem Fuzzing with American Fuzzy lop](http://events.linuxfoundation.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
+
 
 ##### libFuzzer Fuzzer related tutorials
 
@@ -165,24 +172,29 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
 
+
 ##### Spike Fuzzer related tutorials
 
 [Fuzzing with Spike to find overflows](http://null-byte.wonderhowto.com/how-to/hack-like-pro-build-your-own-exploits-part-3-fuzzing-with-spike-find-overflows-0162789/)
 
 [Fuzzing with Spike](https://samsclass.info/127/proj/p18-spike.htm) - by samclass.info
 
+
 ##### FOE Fuzzer related tutorials
+
 [Fuzzing with FOE](https://samsclass.info/127/proj/p16-fuzz.htm) - by Samclass.info
 
 
 ##### SMT/SAT solver tutorials
+
 [Z3 - A guide](http://rise4fun.com/z3/tutorial/guide) - Getting Started with Z3: A Guide
 
-<a name="tools" />
+
 ## Tools
 
 *Tools which helps in fuzzing applications*
-<a name="file-format-fuzzers" />
+
+
 ### File Format Fuzzers
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
@@ -213,7 +225,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [radamsa](https://github.com/aoh/radamsa) - A general purpose fuzzer and test case generator.
 
-<a name="network-protocol-fuzzers" />
+
 ### Network Protocol Fuzzers
 
 *Fuzzers which helps in fuzzing applications which use network based protocals like HTTP, SSH, SMTP etc.,*
@@ -232,8 +244,11 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - A dumb protocol-unaware packet fuzzer/replayer.
 
-<a name="Misc" />
-### Misc. like Kernel Fuzzers, general purpose fuzzer etc.,
+
+### Misc 
+*Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
+
+
 [KernelFuzzer](https://github.com/mwrlabs/KernelFuzzer) - Cross Platform Kernel Fuzzer Framework.
 
 [honggfuzz](http://google.github.io/honggfuzz/) - A general-purpose, easy-to-use fuzzer with interesting analysis options.
@@ -244,30 +259,34 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [syzkaller](https://github.com/google/syzkaller) - Distributed, unsupervised, coverage-guided Linux syscall fuzzer.
 
-<a name="taint-analysis" />
-### Taint Analysis ( How user input affects the execution)
+### Taint Analysis
+*How user input affects the execution*
 
 [PANDA ( Platform for Architecture-Neutral Dynamic Analysis )](https://github.com/moyix/panda)
 
 [QIRA (QEMU Interactive Runtime Analyser)](http://qira.me/)
 
-<a name="smt-solvers" />
-### Symbolic Execution + SAT/SMT Solvers
+
+### Symbolic Execution SAT and SMT Solvers
+
 [Z3](https://github.com/Z3Prover/z3)
 
 [SMT-LIB](http://smtlib.cs.uiowa.edu/) 
+
 
 ### References
 
 I haven't included some of the legends like AxMan, please refer the following link for more information.
 https://www.ee.oulu.fi/research/ouspg/Fuzzers 
 
-<a name="essential-tools" />
-### Essential Tools (generic)
+
+### Essential Tools
 
 *Tools of the trade for exploit developers, reverse engineers*
-<a name="debuggers" />
+
+
 #### Debuggers 
+
 
 [Windbg](https://msdn.microsoft.com/en-in/library/windows/hardware/ff551063(v=vs.85).aspxi) - The preferred debugger by exploit writers.
 
@@ -288,10 +307,10 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 [Radare2](http://www.radare.org/r/) - Framework for reverse-engineering and analyzing binaries.
 
 
-<a name="dissembers" />
 #### Disassemblers and some more
 
 *Dissemblers, disassembly frameworks etc.,*
+
 
 [IDA Pro](https://www.hex-rays.com/products/ida/index.shtml) - The best disassembler
 
@@ -299,7 +318,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 [Capstone](https://github.com/aquynh/capstone) - Capstone is a lightweight multi-platform, multi-architecture disassembly framework.
 
-<a name="others" />
+
 #### Others
 
 [ltrace](http://ltrace.org/) - Intercepts library calls 
@@ -307,14 +326,16 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 [strace](http://sourceforge.net/projects/strace/) - Intercepts system calls
 
 
-<a name="vuln-apps"/>
 ## Vulnerable Applications
+
 Exploit-DB - https://www.exploit-db.com
 (search and pick the exploits, which have respective apps available for download, reproduce the exploit by using fuzzer of your choice)
 
 PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
 
+
 ##### Samples files for seeding during fuzzing:
+
 https://files.fuzzing-project.org/
 
 [PDF Test Corpus from Mozilla](https://github.com/mozilla/pdf.js/tree/master/test/pdfs)
@@ -323,12 +344,12 @@ https://files.fuzzing-project.org/
 
 [Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - Set of tests for fuzzing engines. Includes different well-known bugs such as Heartbleed, c-ares $100K bug and others.
 
-<a name="antifuzz"/>
-## Anti-Fuzzing
+
+## Anti Fuzzing
 
 [Introduction to Anti-Fuzzing: A Defence In-Depth Aid](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
 
-<a name="contribution"/>
+
 ## Contributing
 
 [Please refer the guidelines at contributing.md for details](Contributing.md).
@@ -336,4 +357,3 @@ https://files.fuzzing-project.org/
 Thanks to the following folks who made contributions to this project. 
 + [Tim Strazzere](https://twitter.com/timstrazz)
 + [jksecurity](https://github.com/jksecurity)
-
