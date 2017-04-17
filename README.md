@@ -135,10 +135,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Getting Started with Peach](http://community.peachfuzzer.com/v2/PeachQuickstart.html)
 
-[Fuzzing with Peach Part 1](http://www.flinkd.org/2011/07/fuzzing-with-peach-part-1/) - by Jason Kratzer of corelan team
+[Fuzzing with Peach Part 1](http://www.flinkd.org/fuzzing-with-peach-part-1/) - by Jason Kratzer of corelan team
 
 
-[Fuzzing with Peach Part 2](http://www.flinkd.org/2011/11/fuzzing-with-peach-part-2-fixups-2/) - by Jason Kratzer of corelan team.
+[Fuzzing with Peach Part 2](http://www.flinkd.org/fuzzing-with-peach-part-2-fixups-2/) - by Jason Kratzer of corelan team.
 
 [Auto generation of Peach pit files/fuzzers](http://doc.netzob.org/en/latest/tutorials/peach.html) - by Frédéric Guihéry, Georges Bossert.
 
