@@ -265,6 +265,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [QuickFuzz](https://github.com/CIFASIS/QuickFuzz) - A tool written in Haskell designed for testing un-expected inputs of common file formats on third-party software, taking advantage of off-the-shelf, well known fuzzers.
 
+[gramfuzz](https://github.com/d0c-s4vage/gramfuzz) - A grammar-based fuzzer that lets one define complex grammars to model text and binary data formats
+
 ### Taint Analysis
 *How user input affects the execution*
 
