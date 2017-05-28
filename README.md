@@ -263,6 +263,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Choronzon](https://github.com/CENSUS/choronzon) - An evolutionary knowledge-based fuzzer
 
+[QuickFuzz](https://github.com/CIFASIS/QuickFuzz) - A tool written in Haskell designed for testing un-expected inputs of common file formats on third-party software, taking advantage of off-the-shelf, well known fuzzers.
+
 ### Taint Analysis
 *How user input affects the execution*
 
