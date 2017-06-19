@@ -199,7 +199,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
 
-[MiniFuzz](https://www.microsoft.com/en-sg/download/details.aspx?id=21769) - Basic file format fuzzing tool by Microsoft.
+~~[MiniFuzz](https://www.microsoft.com/en-sg/download/details.aspx?id=21769) - Basic file format fuzzing tool by Microsoft.~~ (No longer available)
 
 [BFF from CERT](https://www.cert.org/vulnerability-analysis/tools/bff.cfm?) - Basic Fuzzing Framework for file formats.
 
