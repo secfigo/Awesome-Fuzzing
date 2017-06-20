@@ -303,6 +303,8 @@ Exploit-DB - https://www.exploit-db.com
 
 PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
 
+[Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - Vulnerable C program for testing fuzzers.
+
 ##### fuzzing 期间种子样本文件
 https://files.fuzzing-project.org/
 

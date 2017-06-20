@@ -335,6 +335,8 @@ Exploit-DB - https://www.exploit-db.com
 
 PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
 
+[Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - Vulnerable C program for testing fuzzers.
+
 
 ##### Samples files for seeding during fuzzing:
 
