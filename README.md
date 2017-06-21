@@ -273,9 +273,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ### Symbolic Execution SAT and SMT Solvers
 
-[Z3](https://github.com/Z3Prover/z3)
+[Z3](https://github.com/Z3Prover/z3) - A theorem prover from Microsoft Research.
 
-[SMT-LIB](http://smtlib.cs.uiowa.edu/) 
+[SMT-LIB](http://smtlib.cs.uiowa.edu/) - An international initiative aimed at facilitating research and development in Satisfiability Modulo Theories (SMT)
 
 
 ### References
