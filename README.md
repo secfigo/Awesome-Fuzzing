@@ -227,6 +227,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [radamsa](https://github.com/aoh/radamsa) - A general purpose fuzzer and test case generator.
 
+[binspector](https://github.com/binspector/binspector) - A binary format analysis and fuzzing tool
 
 ### Network Protocol Fuzzers
 
