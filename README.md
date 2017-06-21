@@ -59,7 +59,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Modern Binary Exploitation ( RPISEC ) - Chapter 15 ](https://github.com/RPISEC/MBE) - by RPISEC.
 
-[Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - by W. Owen Redwood and Prof. Xiuwen Liu. 
+[Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - by W. Owen Redwood and Prof. Xiuwen Liu.
 
 ### Paid
 
@@ -85,7 +85,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 [Fuzzing - Software Security Course on Coursera](https://www.coursera.org/learn/software-security/lecture/VgyOn/fuzzing) - by University of Maryland.
 
 ### Conference talks and tutorials
-[Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos. 
+[Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos.
 
 [Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - by Atte Kettunen
 
@@ -115,10 +115,10 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 > **Note:** Folks at fuzzing.info has done a great job of collecting some awesome links, I'm not going to duplicate their work. I will add papers missed by them and from 2015 and 2016.
 [Fuzzing Papers](https://fuzzing.info/papers) - by fuzzing.info
 
-[Fuzzing Blogs](https://fuzzing.info/resources/) - by fuzzing.info 
+[Fuzzing Blogs](https://fuzzing.info/resources/) - by fuzzing.info
 
 [Root Cause Analysis of the Crash during Fuzzing](
-https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team. 
+https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team.
 [Root cause analysis of integer flow](https://www.corelan.be/index.php/2013/07/02/root-cause-analysis-integer-overflows/) - by Corelan Team.
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - by Open Security Research
@@ -129,7 +129,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ##### From Fuzzing to Exploit:
 [From fuzzing to 0-day](https://blog.techorganic.com/2014/05/14/from-fuzzing-to-0-day/) - by Harold Rodriguez(@superkojiman).
 
-[From crash to exploit](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team. 
+[From crash to exploit](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team.
 
 ##### Peach Fuzzer related tutorials
 
@@ -238,22 +238,20 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [boofuzz](https://github.com/jtpereyda/boofuzz) -  A fork and successor of Sulley framework.
 
-[Spike](http://www.immunitysec.com/downloads/SPIKE2.9.tgz) - A fuzzer development framework like sulley, a predecessor of sulley. 
+[Spike](http://www.immunitysec.com/downloads/SPIKE2.9.tgz) - A fuzzer development framework like sulley, a predecessor of sulley.
 
-[Metasploit Framework](https://www.rapid7.com/products/metasploit/download.jsp) - A framework which contains some fuzzing capabilities via Auxiliary modules. 
+[Metasploit Framework](https://www.rapid7.com/products/metasploit/download.jsp) - A framework which contains some fuzzing capabilities via Auxiliary modules.
 
 [Nightmare](https://github.com/joxeankoret/nightmare) - A distributed fuzzing testing suite with web administration, supports fuzzing using network protocols.
 
 [rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - A dumb protocol-unaware packet fuzzer/replayer.
 
 
-### Misc 
+### Misc
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
 
 
 [KernelFuzzer](https://github.com/mwrlabs/KernelFuzzer) - Cross Platform Kernel Fuzzer Framework.
-
-[honggfuzz](http://google.github.io/honggfuzz/) - A general-purpose, easy-to-use fuzzer with interesting analysis options.
 
 [Hodor Fuzzer](https://github.com/nccgroup/hodor) - Yet Another general purpose fuzzer.
 
@@ -262,6 +260,12 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [syzkaller](https://github.com/google/syzkaller) - Distributed, unsupervised, coverage-guided Linux syscall fuzzer.
 
 [ansvif](https://oxagast.github.io/ansvif/) - An advanced cross platform fuzzing framework designed to find vulnerabilities in C/C++ code.
+
+[Choronzon](https://github.com/CENSUS/choronzon) - An evolutionary knowledge-based fuzzer
+
+[QuickFuzz](https://github.com/CIFASIS/QuickFuzz) - A tool written in Haskell designed for testing un-expected inputs of common file formats on third-party software, taking advantage of off-the-shelf, well known fuzzers.
+
+[gramfuzz](https://github.com/d0c-s4vage/gramfuzz) - A grammar-based fuzzer that lets one define complex grammars to model text and binary data formats
 
 ### Taint Analysis
 *How user input affects the execution*
@@ -275,13 +279,13 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Z3](https://github.com/Z3Prover/z3)
 
-[SMT-LIB](http://smtlib.cs.uiowa.edu/) 
+[SMT-LIB](http://smtlib.cs.uiowa.edu/)
 
 
 ### References
 
 I haven't included some of the legends like AxMan, please refer the following link for more information.
-https://www.ee.oulu.fi/research/ouspg/Fuzzers 
+https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 
 ### Essential Tools
@@ -289,7 +293,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 *Tools of the trade for exploit developers, reverse engineers*
 
 
-#### Debuggers 
+#### Debuggers
 
 
 [Windbg](https://msdn.microsoft.com/en-in/library/windows/hardware/ff551063(v=vs.85).aspxi) - The preferred debugger by exploit writers.
@@ -325,7 +329,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 #### Others
 
-[ltrace](http://ltrace.org/) - Intercepts library calls 
+[ltrace](http://ltrace.org/) - Intercepts library calls
 
 [strace](http://sourceforge.net/projects/strace/) - Intercepts system calls
 
@@ -360,6 +364,6 @@ https://files.fuzzing-project.org/
 
 [Please refer the guidelines at contributing.md for details](Contributing.md).
 
-Thanks to the following folks who made contributions to this project. 
+Thanks to the following folks who made contributions to this project.
 + [Tim Strazzere](https://twitter.com/timstrazz)
 + [jksecurity](https://github.com/jksecurity)
