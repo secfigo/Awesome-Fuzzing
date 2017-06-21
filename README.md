@@ -203,7 +203,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [BFF from CERT](https://www.cert.org/vulnerability-analysis/tools/bff.cfm?) - Basic Fuzzing Framework for file formats.
 
-[AFL Fuzzer (Linux only)]( http://lcamtuf.coredump.cx/afl/) - American Fuzzy Loop Fuzzer by Michal Zalewski aka lcamtuf
+[AFL Fuzzer (Linux only)]( http://lcamtuf.coredump.cx/afl/) - American Fuzzy Lop Fuzzer by Michal Zalewski aka lcamtuf
 
 [Win AFL](https://github.com/ivanfratric/winafl) - A fork of AFL for fuzzing Windows binaries by Ivan Fratic
 
