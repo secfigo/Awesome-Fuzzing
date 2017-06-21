@@ -167,6 +167,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing Perl/XS modules with AFL](https://medium.com/@dgryski/fuzzing-perl-xs-modules-with-afl-4bfc2335dd90)
 
+[How to fuzz a server with American Fuzzy Lop](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop/) - by Jonathan Foote
 
 ##### libFuzzer Fuzzer related tutorials
 
