@@ -230,6 +230,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [binspector](https://github.com/binspector/binspector) - A binary format analysis and fuzzing tool
 
+[grammarinator](https://github.com/renatahodovan/grammarinator) - Fuzzing tool for file formats based on ANTLR v4 grammars (lots of grammars already available from the ANTLR project).
+
 ### Network Protocol Fuzzers
 
 *Fuzzers which helps in fuzzing applications which use network based protocals like HTTP, SSH, SMTP etc.,*
