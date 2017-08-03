@@ -367,3 +367,4 @@ https://files.fuzzing-project.org/
 Thanks to the following folks who made contributions to this project. 
 + [Tim Strazzere](https://twitter.com/timstrazz)
 + [jksecurity](https://github.com/jksecurity)
++ [and these awesome people](https://github.com/secfigo/Awesome-Fuzzing/graphs/contributors)
