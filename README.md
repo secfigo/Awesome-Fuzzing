@@ -91,7 +91,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
 
-DerbyCon 2016 Fuzzing basics...or how to break software (http://www.securitytube.net/video/16939)
+[DerbyCon 2016 Fuzzing basics...or how to break software](http://www.securitytube.net/video/16939)
 
 
 ## Tutorials and Blogs
