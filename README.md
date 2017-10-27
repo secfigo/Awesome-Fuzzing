@@ -276,6 +276,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [QIRA (QEMU Interactive Runtime Analyser)](http://qira.me/)
 
+[kfetch-toolkit](https://github.com/j00ru/kfetch-toolkit) - Tool to perform advanced logging of memory references performed by operating systems’ kernels
 
 ### Symbolic Execution SAT and SMT Solvers
 
