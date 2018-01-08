@@ -15,7 +15,7 @@
 - [工具](#工具)
   + [文件格式 Fuzzer](#文件格式Fuzzer)
   + [网络协议 Fuzzer](#网络协议Fuzzer)
-  + [Taint Analysis](#taint-analysis)
+  + [污点分析](#taint-analysis)
   + [符号执行 + SAT/SMT求解器](#符号执行)
   + [基本工具（通用）](#基本工具（通用）)
 - [存在漏洞的应用程序](#存在漏洞的应用程序)
@@ -43,7 +43,7 @@ Awesome Fuzzing Resources
 
 > - [iOS Hacker's Handbook - Chapter 1](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123/) 作者： Charles Miller, Dino DaiZovi, Dion Blazakis, Ralf-Philip Weinmann, and Stefan Esser
 
-IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指导书
+> - [IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指导书](https://www.amazon.com/IDA-Pro-Book-Unofficial-Disassembler-ebook/dp/B005EI84TM)
 
 <a name="courses" />
 ## 课程
@@ -62,7 +62,8 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 [Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - W. Owen Redwood 和 Prof. Xiuwen Liu 出品
 
 <a name="paid" />
-### 付费 ( $$$ ) 
+### 付费
+
 [Offensive Security, Cracking The Perimeter ( CTP ) and Advanced Windows Exploitation ( AWE )](https://www.offensive-security.com/information-security-training/)
 
 [SANS 660/760 Advanced Exploit Development for Penetration Testers](https://www.sans.org/course/advance-exploit-development-pentetration-testers)
@@ -75,6 +76,7 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 *讨论 fuzzing 技术、工具、最佳实践的视频*
 <a name="nyu-poly-videos" />
 ### NYU Poly Course videos (from Dan Guido)
+
 [Fuzzing 101 (Part 1)](https://vimeo.com/5236104) - Mike Zusman 出品
 
 [Fuzzing 101 (Part 2)](https://vimeo.com/5237484) - Mike Zusman 出品
@@ -85,6 +87,7 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 
 <a name="conf-talks-tutorials" />
 ### 关于 Fuzzing 的会议讨论/教程
+
 [Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - 列表内有许多优质内容
 
 
@@ -92,11 +95,12 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 
 [Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
 
+[DerbyCon 2016: Fuzzing 如何击溃软件](http://www.securitytube.net/video/16939)
+
 <a name="tutorials" />
-## 教程
+## 教程与博客
 
 *解释 fuzzing 方法、技术与最佳实践的教程与博客*
-### [2016 文章]
 
 [Effective File Format Fuzzing](http://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
@@ -158,11 +162,23 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 
 [用 AFL 进行文件系统 Fuzzing](http://events.linuxfoundation.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
 
+[使用 AFL 对 Perl/XS 进行模糊测试](https://medium.com/@dgryski/fuzzing-perl-xs-modules-with-afl-4bfc2335dd90)
+
+[如何使用 AFL 对服务器进行模糊测试](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop/) - by Jonathan Foote
+
+[一系列真实漏洞的挑战：使用 AFL 完成模糊测试](https://github.com/ThalesIgnite/afl-training)
+
+##### libFuzzer 相关教程
+
+[libFuzzer 教程](http://tutorial.libfuzzer.info)
+
+[如何使用 libFuzzer 对现代 C/C++ 项目进行模糊测试](https://github.com/Dor1s/libfuzzer-workshop)
+
 ##### Spike Fuzzer 相关教程
 
-[Fuzzing with Spike to find overflows](http://null-byte.wonderhowto.com/how-to/hack-like-pro-build-your-own-exploits-part-3-fuzzing-with-spike-find-overflows-0162789/)
+[使用 Spike 发现溢出漏洞](http://null-byte.wonderhowto.com/how-to/hack-like-pro-build-your-own-exploits-part-3-fuzzing-with-spike-find-overflows-0162789/)
 
-[Fuzzing with Spike](https://samsclass.info/127/proj/p18-spike.htm) - Samclass.info 出品
+[使用 Spike 进行模糊测试](https://samsclass.info/127/proj/p18-spike.htm) - Samclass.info 出品
 
 ##### FOE Fuzzer 相关教程
 [Fuzzing with FOE](https://samsclass.info/127/proj/p16-fuzz.htm) - Samclass.info 出品
@@ -206,6 +222,10 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 
 [radamsa](https://github.com/aoh/radamsa) - 通用的 fuzzer，测试用例生成器
 
+[binspector](https://github.com/binspector/binspector) - 二进制格式分析与模糊测试工具
+
+[grammarinator](https://github.com/renatahodovan/grammarinator) - 基于 ANTLR v4 语法的文件格式模糊测试工具（ANTLR 项目已有大量的语法）
+
 <a name="network-protocol-fuzzers" />
 ### 网络协议 Fuzzer
 
@@ -227,11 +247,18 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 
 <a name="Misc" />
 ### 杂项，内核 Fuzzer，通用 Fuzzer
+
 [KernelFuzzer](https://github.com/mwrlabs/KernelFuzzer) - 跨平台内核 Fuzzer 框架
 
 [honggfuzz](http://google.github.io/honggfuzz/) - 带有分析选项的通用、易用型 fuzzer
 
 [Hodor Fuzzer](https://github.com/nccgroup/hodor) - 曾经是另一个通用的 fuzzer
+
+[libFuzzer](http://libfuzzer.info) - 面向 C/C++ 程序、基于覆盖度的进化模糊测试工具
+
+[syzkaller](https://github.com/google/syzkaller) - 分布式、无监督、基于覆盖度的 Linux 系统调用模糊测试工具
+
+[ansvif](https://oxagast.github.io/ansvif/) - 用于在 C/C++ 程序中查找漏洞的高级跨平台模糊测试框架
 
 <a name="taint-analysis" />
 ### 流分析（用户输入如何影响执行）
@@ -239,6 +266,8 @@ IDA Pro - The IDA Pro Book: 世界上最流行的反汇编工具的非官方指�
 [PANDA ( Platform for Architecture-Neutral Dynamic Analysis )](https://github.com/moyix/panda)
 
 [QIRA (QEMU Interactive Runtime Analyser)](http://qira.me/)
+
+[kfetch-toolkit](https://github.com/j00ru/kfetch-toolkit) - 用于记录操作系统内核执行的内存引用的高级日志工具
 
 <a name="smt-solvers" />
 ### 符号执行 + SAT/SMT 求解器
@@ -276,7 +305,6 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 [Radare2](http://www.radare.org/r/) - 逆向工程与程序分析的框架
 
-
 <a name="dissembers" />
 #### 反汇编工具
 
@@ -298,12 +326,13 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 <a name="vuln-apps"/>
 ## 存在漏洞的应用程序
-Exploit-DB - https://www.exploit-db.com
-(搜索、选取漏洞，有些提供了程序下载，可以通过你选择试用的 fuzzer 对利用进行复现
 
-PacketStorm - https://packetstormsecurity.com/files/tags/exploit/
+[Exploit-DB](https://www.exploit-db.com)
+ 搜索、选取漏洞，有些提供了程序下载，可以通过你选择试用的 fuzzer 对利用进行复现
 
-[Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - Vulnerable C program for testing fuzzers.
+[PacketStorm](https://packetstormsecurity.com/files/tags/exploit/)
+
+[Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - 对有漏洞的 C 程序模糊测试的工具
 
 ##### fuzzing 期间种子样本文件
 https://files.fuzzing-project.org/
@@ -312,10 +341,12 @@ https://files.fuzzing-project.org/
 
 [MS Office file format documentation](https://www.microsoft.com/en-us/download/details.aspx?id=14565)
 
+[Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - 模糊测试引擎的测试集，包括许多知名的 Bug，如 Heartbleed、c-ares $100K bug 等
+
 <a name="antifuzz"/>
 ## 反Fuzzing
 
-[Introduction to Anti-Fuzzing: A Defence In-Depth Aid](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
+[Anti-Fuzzing 的介绍：纵深防御的辅助](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
 
 <a name="contribution"/>
 ## 贡献
@@ -325,4 +356,4 @@ https://files.fuzzing-project.org/
 感谢下列人员对这个项目的贡献：
 + [Tim Strazzere](https://twitter.com/timstrazz)
 + [jksecurity](https://github.com/jksecurity)
-
++ [and these awesome people](https://github.com/secfigo/Awesome-Fuzzing/graphs/contributors)
