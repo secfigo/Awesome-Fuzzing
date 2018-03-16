@@ -13,6 +13,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Conference talks and tutorials](#conference-talks-and-tutorials)
 - [Tutorials and Blogs](#tutorials-and-blogs)
 - [Tools](#tools)
+  + [Cloud Fuzzers](#cloud-fuzzers)
   + [File Format Fuzzers](#file-format-fuzzers)
   + [Network Protocol Fuzzers](#network-protocol-fuzzers)
   + [Taint Analysis](#taint-analysis)
@@ -199,6 +200,11 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 *Tools which helps in fuzzing applications*
 
+### Cloud Fuzzers
+
+*Fuzzers which help fuzzing in cloud environments.*
+
+[Cloudfuzzer](https://github.com/ouspg/cloudfuzzer) - Cloud fuzzing framework which makes it possible to easily run automated fuzz-testing in cloud environments.
 
 ### File Format Fuzzers
 
