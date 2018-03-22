@@ -1,6 +1,8 @@
 Welcome to Awesome Fuzzing [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===================
 
+[![Build Status](https://travis-ci.org/secfigo/Awesome-Fuzzing.svg?branch=master)](https://travis-ci.org/secfigo/Awesome-Fuzzing)
+
 A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
 
 ### Table of Contents
@@ -40,11 +42,11 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 > **Note:** Chapter(s) in the following books are dedicated to fuzzing.
 
-> - [The Shellcoder's Handbook: Discovering and Exploiting Security Holes ( Chapter 15 )](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/) by Chris Anley, Dave Aitel, David Litchfield and others.
+> - [The Shellcoder's Handbook: Discovering and Exploiting Security Holes ( Chapter 15 )](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X) by Chris Anley, Dave Aitel, David Litchfield and others.
 
-> - [iOS Hacker's Handbook - Chapter 1](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123/) Charles Miller, Dino DaiZovi, Dion Blazakis, Ralf-Philip Weinmann, and Stefan Esser.
+> - [iOS Hacker's Handbook - Chapter 1](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123) Charles Miller, Dino DaiZovi, Dion Blazakis, Ralf-Philip Weinmann, and Stefan Esser.
 
-> - [IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler](https://www.amazon.com/IDA-Pro-Book-Unofficial-Disassembler-ebook/dp/B005EI84TM)
+> - [IDA Pro - The IDA Pro Book: The Unofficial Guide to the World's Most Popular Disassembler](https://www.amazon.com/IDA-Pro-Book-2nd-ebook/dp/B005EI84TM)
 
 
 ## Courses
@@ -114,7 +116,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 [A 15 minute introduction to fuzzing](https://www.mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing/) - by folks at MWR Security.
 
 > **Note:** Folks at fuzzing.info has done a great job of collecting some awesome links, I'm not going to duplicate their work. I will add papers missed by them and from 2015 and 2016.
-[Fuzzing Papers](https://fuzzing.info/papers) - by fuzzing.info
+[Fuzzing Papers](https://fuzzing.info/papers/) - by fuzzing.info
 
 [Fuzzing Blogs](https://fuzzing.info/resources/) - by fuzzing.info 
 
@@ -124,7 +126,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - by Open Security Research
 
-[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linux.com/blog/7-things-consider-fuzzing-large-open-source-project) - by Emily Ratliff.
+[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linuxfoundation.org/blog/7-things-to-consider-before-fuzzing-a-large-open-source-project) - by Emily Ratliff.
 
 
 ##### From Fuzzing to Exploit:
@@ -152,9 +154,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Bug Hunting with American Fuzzy Lop](https://josephg.com/blog/bug-hunting-with-american-fuzzy-lop/)
 
-[Advanced usage of American Fuzzy Lop with real world examples](http://volatileminds.net/2015/07/01/advanced-afl-usage.html)
+[Advanced usage of American Fuzzy Lop with real world examples](https://volatileminds.net/2015/07/01/advanced-afl-usage.html)
 
-[Segfaulting Python with afl-fuzz](http://tomforb.es/segfaulting-python-with-afl-fuzz)
+[Segfaulting Python with afl-fuzz](https://tomforb.es/segfaulting-python-with-afl-fuzz)
 
 [Fuzzing Perl: A Tale of Two American Fuzzy Lops](http://www.geeknik.net/71nvhf1fp)
 
@@ -164,24 +166,24 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [How Heartbleed could've been found](https://blog.hboeck.de/archives/868-How-Heartbleed-couldve-been-found.html)
 
-[Filesystem Fuzzing with American Fuzzy lop](http://events.linuxfoundation.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
+[Filesystem Fuzzing with American Fuzzy lop](https://events.linuxfoundation.org/sites/events/files/slides/AFL%20filesystem%20fuzzing%2C%20Vault%202016_0.pdf)
 
 [Fuzzing Perl/XS modules with AFL](https://medium.com/@dgryski/fuzzing-perl-xs-modules-with-afl-4bfc2335dd90)
 
-[How to fuzz a server with American Fuzzy Lop](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop/) - by Jonathan Foote
+[How to fuzz a server with American Fuzzy Lop](https://www.fastly.com/blog/how-fuzz-server-american-fuzzy-lop) - by Jonathan Foote
 
 [Fuzzing with AFL Workshop - a set of challenges on real vulnerabilities](https://github.com/ThalesIgnite/afl-training)
 
 ##### libFuzzer Fuzzer related tutorials
 
-[libFuzzer Tutorial](http://tutorial.libfuzzer.info)
+[libFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
 
 [libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
 
 
 ##### Spike Fuzzer related tutorials
 
-[Fuzzing with Spike to find overflows](http://null-byte.wonderhowto.com/how-to/hack-like-pro-build-your-own-exploits-part-3-fuzzing-with-spike-find-overflows-0162789/)
+[Fuzzing with Spike to find overflows](https://null-byte.wonderhowto.com/how-to/hack-like-pro-build-your-own-exploits-part-3-fuzzing-with-spike-find-overflows-0162789/)
 
 [Fuzzing with Spike](https://samsclass.info/127/proj/p18-spike.htm) - by samclass.info
 
@@ -212,7 +214,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [MiniFuzz - Wayback Machine link](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Basic file format fuzzing tool by Microsoft. (No longer available on Microsoft website).
 
-[BFF from CERT](https://www.cert.org/vulnerability-analysis/tools/bff.cfm?) - Basic Fuzzing Framework for file formats.
+[BFF from CERT](https://www.sei.cmu.edu/certsite/vulnerability-analysis/tools/bff.cfm?) - Basic Fuzzing Framework for file formats.
 
 [AFL Fuzzer (Linux only)]( http://lcamtuf.coredump.cx/afl/) - American Fuzzy Lop Fuzzer by Michal Zalewski aka lcamtuf
 
@@ -222,7 +224,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [TriforceAFL](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/june/project-triforce-run-afl-on-everything/) - A modified version of AFL that supports fuzzing for applications whose source code not available.
 
-[Peach Fuzzer](https://peachfuzz.sourceforge.net/) - Framework which helps to create custom dumb and smart fuzzers.
+[Peach Fuzzer](https://sourceforge.net/projects/peachfuzz/) - Framework which helps to create custom dumb and smart fuzzers.
 
 [MozPeach](https://github.com/MozillaSecurity/peach) - A fork of peach 2.7 by Mozilla Security.
 
@@ -252,7 +254,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Spike](http://www.immunitysec.com/downloads/SPIKE2.9.tgz) - A fuzzer development framework like sulley, a predecessor of sulley. 
 
-[Metasploit Framework](https://www.rapid7.com/products/metasploit/download.jsp) - A framework which contains some fuzzing capabilities via Auxiliary modules. 
+[Metasploit Framework](https://github.com/rapid7/metasploit-framework) - A framework which contains some fuzzing capabilities via Auxiliary modules. 
 
 [Nightmare](https://github.com/joxeankoret/nightmare) - A distributed fuzzing testing suite with web administration, supports fuzzing using network protocols.
 
@@ -265,11 +267,11 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [KernelFuzzer](https://github.com/mwrlabs/KernelFuzzer) - Cross Platform Kernel Fuzzer Framework.
 
-[honggfuzz](http://google.github.io/honggfuzz/) - A general-purpose, easy-to-use fuzzer with interesting analysis options.
+[honggfuzz](http://honggfuzz.com/) - A general-purpose, easy-to-use fuzzer with interesting analysis options.
 
 [Hodor Fuzzer](https://github.com/nccgroup/hodor) - Yet Another general purpose fuzzer.
 
-[libFuzzer](http://libfuzzer.info) - In-process, coverage-guided, evolutionary fuzzing engine for targets written in C/C++.
+[libFuzzer](http://llvm.org/docs/LibFuzzer.html) - In-process, coverage-guided, evolutionary fuzzing engine for targets written in C/C++.
 
 [syzkaller](https://github.com/google/syzkaller) - Distributed, unsupervised, coverage-guided Linux syscall fuzzer.
 
@@ -305,7 +307,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 #### Debuggers 
 
 
-[Windbg](https://msdn.microsoft.com/en-in/library/windows/hardware/ff551063(v=vs.85).aspxi) - The preferred debugger by exploit writers.
+[Windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) - The preferred debugger by exploit writers.
 
 [Immunity Debugger](http://debugger.immunityinc.com) - Immunity Debugger by Immunity Sec.
 
@@ -340,7 +342,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 [ltrace](http://ltrace.org/) - Intercepts library calls 
 
-[strace](http://sourceforge.net/projects/strace/) - Intercepts system calls
+[strace](https://sourceforge.net/projects/strace/) - Intercepts system calls
 
 
 ## Vulnerable Applications
