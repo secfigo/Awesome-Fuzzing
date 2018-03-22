@@ -214,7 +214,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [MiniFuzz - Wayback Machine link](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Basic file format fuzzing tool by Microsoft. (No longer available on Microsoft website).
 
-[BFF from CERT](https://www.sei.cmu.edu/certsite/vulnerability-analysis/tools/bff.cfm?) - Basic Fuzzing Framework for file formats.
+[BFF from CERT](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974) - Basic Fuzzing Framework for file formats.
 
 [AFL Fuzzer (Linux only)]( http://lcamtuf.coredump.cx/afl/) - American Fuzzy Lop Fuzzer by Michal Zalewski aka lcamtuf
 
