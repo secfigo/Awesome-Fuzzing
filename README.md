@@ -260,6 +260,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - A dumb protocol-unaware packet fuzzer/replayer.
 
+[fuzzcat](https://github.com/foospidy/fuzzcat) - A rudimentary network protocol fuzzer using bash, netcat, and other tools.
 
 ### Misc 
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
