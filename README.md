@@ -18,6 +18,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Cloud Fuzzers](#cloud-fuzzers)
   + [File Format Fuzzers](#file-format-fuzzers)
   + [Network Protocol Fuzzers](#network-protocol-fuzzers)
+  + [Browser Fuzzing](#browser-fuzzing)
   + [Taint Analysis](#taint-analysis)
   + [Symbolic Execution SAT and SMT Solvers](#symbolic-execution-sat-and-smt-solvers)
   + [Essential Tools](#essential-tools)
@@ -266,6 +267,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing For Worms](https://github.com/dobin/ffw) - A fuzzing framework for network servers.
 
+### Browser Fuzzing
+[BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
 ### Misc 
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
