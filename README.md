@@ -18,6 +18,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Cloud Fuzzers](#cloud-fuzzers)
   + [File Format Fuzzers](#file-format-fuzzers)
   + [Network Protocol Fuzzers](#network-protocol-fuzzers)
+  + [Browser Fuzzing](#browser-fuzzing)
   + [Taint Analysis](#taint-analysis)
   + [Symbolic Execution SAT and SMT Solvers](#symbolic-execution-sat-and-smt-solvers)
   + [Essential Tools](#essential-tools)
@@ -94,7 +95,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
 
-[DerbyCon 2016: Fuzzing basics...or how to break software](http://www.securitytube.net/video/16939)
+[DerbyCon 2016: Fuzzing basics...or how to break software](http://www.irongeek.com/i.php?page=videos/derbycon6/411-fuzzing-basicshow-to-break-software-grid-aka-scott-m)
 
 
 ## Tutorials and Blogs
@@ -260,6 +261,14 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - A dumb protocol-unaware packet fuzzer/replayer.
 
+[Fuzzotron](https://github.com/denandz/fuzzotron) - A simple network fuzzer supporting TCP, UDP and multithreading.
+
+[Mutiny](https://github.com/Cisco-Talos/mutiny-fuzzer) - The Mutiny Fuzzing Framework is a network fuzzer that operates by replaying PCAPs through a mutational fuzzer.
+
+[Fuzzing For Worms](https://github.com/dobin/ffw) - A fuzzing framework for network servers.
+
+### Browser Fuzzing
+[BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
 ### Misc 
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
@@ -290,6 +299,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [QIRA (QEMU Interactive Runtime Analyser)](http://qira.me/)
 
 [kfetch-toolkit](https://github.com/j00ru/kfetch-toolkit) - Tool to perform advanced logging of memory references performed by operating systems’ kernels
+
+[moflow](https://github.com/vrtadmin/moflow) - A software security framework containing tools for vulnerability, discovery, and triage.
 
 ### Symbolic Execution SAT and SMT Solvers
 
