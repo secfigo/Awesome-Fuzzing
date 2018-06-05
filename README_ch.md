@@ -17,6 +17,7 @@
   + [云 Fuzzer](#cloud-fuzzers)
   + [文件格式 Fuzzer](#文件格式Fuzzer)
   + [网络协议 Fuzzer](#网络协议Fuzzer)
+  + [浏览器 Fuzzer](#浏览器Fuzzer)
   + [污点分析](#taint-analysis)
   + [符号执行 + SAT/SMT求解器](#符号执行)
   + [基本工具（通用）](#基本工具（通用）)
@@ -97,7 +98,7 @@ Awesome Fuzzing Resources
 
 [Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
 
-[DerbyCon 2016: Fuzzing 如何击溃软件](http://www.securitytube.net/video/16939)
+[DerbyCon 2016: Fuzzing 如何击溃软件](http://www.irongeek.com/i.php?page=videos/derbycon6/411-fuzzing-basicshow-to-break-software-grid-aka-scott-m)
 
 <a name="tutorials" />
 ## 教程与博客
@@ -106,9 +107,9 @@ Awesome Fuzzing Resources
 
 [Effective File Format Fuzzing](http://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
-[A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.in/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Google Zero 项目的最佳论文，描述了如何进行 fuzzing 以及如何构建一个 fuzzer
+[A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Google Zero 项目的最佳论文，描述了如何进行 fuzzing 以及如何构建一个 fuzzer
 
-[A year of Windows kernel font fuzzing Part-2 the techniques](https://googleprojectzero.blogspot.in/2016/07/a-year-of-windows-kernel-font-fuzzing-2.html) - Google Zero 项目的最佳论文，描述了如何进行 fuzzing 以及如何构建一个 fuzzer
+[A year of Windows kernel font fuzzing Part-2 the techniques](https://googleprojectzero.blogspot.com/2016/07/a-year-of-windows-kernel-font-fuzzing-2.html) - Google Zero 项目的最佳论文，描述了如何进行 fuzzing 以及如何构建一个 fuzzer
 
 [Interesting bugs and resources at fuzzing project](https://blog.fuzzing-project.org/) - fuzzing-project.org 出品
 
@@ -254,6 +255,15 @@ Awesome Fuzzing Resources
 
 [rage_fuzzer](https://github.com/deanjerkovich/rage_fuzzer) - 未知协议包 fuzzer
 
+[Fuzzotron](https://github.com/denandz/fuzzotron) - 支持 TCP、UDP 的简单多进程网络 Fuzzer
+
+[Mutiny](https://github.com/Cisco-Talos/mutiny-fuzzer) - 通过重放畸变的 PCAP 数据包来对网络进行 Fuzzer
+
+[Fuzzing For Worms](https://github.com/dobin/ffw) - 用于网络服务的 Fuzzing 框架
+
+### 浏览器Fuzzer
+[BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
+
 <a name="Misc" />
 ### 杂项，内核 Fuzzer，通用 Fuzzer
 
@@ -283,6 +293,8 @@ Awesome Fuzzing Resources
 [QIRA (QEMU Interactive Runtime Analyser)](http://qira.me/)
 
 [kfetch-toolkit](https://github.com/j00ru/kfetch-toolkit) - 用于记录操作系统内核执行的内存引用的高级日志工具
+
+[moflow](https://github.com/vrtadmin/moflow) - 软件安全框架，包括漏洞的挖掘和修补
 
 <a name="smt-solvers" />
 ### 符号执行 + SAT/SMT 求解器
