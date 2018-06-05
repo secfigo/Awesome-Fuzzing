@@ -104,9 +104,9 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Effective File Format Fuzzing](http://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
-[A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.in/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
+[A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
 
-[A year of Windows kernel font fuzzing Part-2 the techniques](https://googleprojectzero.blogspot.in/2016/07/a-year-of-windows-kernel-font-fuzzing-2.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
+[A year of Windows kernel font fuzzing Part-2 the techniques](https://googleprojectzero.blogspot.com/2016/07/a-year-of-windows-kernel-font-fuzzing-2.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
 
 [Interesting bugs and resources at fuzzing project](https://blog.fuzzing-project.org/) - by fuzzing-project.org.
 
