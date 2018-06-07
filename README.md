@@ -159,8 +159,6 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Segfaulting Python with afl-fuzz](https://tomforb.es/segfaulting-python-with-afl-fuzz)
 
-[Fuzzing Perl: A Tale of Two American Fuzzy Lops](http://www.geeknik.net/71nvhf1fp)
-
 [Fuzzing With AFL-Fuzz, a Practical Example ( AFL vs Binutils )](https://www.evilsocket.net/2015/04/30/fuzzing-with-afl-fuzz-a-practical-example-afl-vs-binutils/)
 
 [The Importance of Fuzzing...Emulators?](https://mgba.io/2016/09/13/fuzzing-emulators/)
