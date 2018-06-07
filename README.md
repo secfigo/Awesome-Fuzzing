@@ -289,6 +289,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [ansvif](https://oxagast.github.io/ansvif/) - An advanced cross platform fuzzing framework designed to find vulnerabilities in C/C++ code.
 
+[Tribble](https://github.com/SatelliteApplicationsCatapult/tribble) - Easy-to-use, coverage-guided JVM fuzzing framework. 
+
 ### Taint Analysis
 *How user input affects the execution*
 
