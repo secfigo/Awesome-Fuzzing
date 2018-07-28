@@ -86,7 +86,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Fuzzing 101 (2009)](https://vimeo.com/7574602) - by Mike Zusman.
 
-[Fuzzing - Software Security Course on Coursera](https://www.coursera.org/learn/software-security/lecture/VgyOn/fuzzing) - by University of Maryland.
+[Fuzzing - Software Security Course on Coursera](https://www.coursera.org/lecture/software-security/fuzzing-VgyOn) - by University of Maryland.
 
 ### Conference talks and tutorials
 [Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos. 
@@ -102,7 +102,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 *Tutorials and blogs which explain methodology, techniques and best practices of fuzzing*
 
-[Effective File Format Fuzzing](http://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
+[Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
 [A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
 
@@ -290,6 +290,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [ansvif](https://oxagast.github.io/ansvif/) - An advanced cross platform fuzzing framework designed to find vulnerabilities in C/C++ code.
 
 [Tribble](https://github.com/SatelliteApplicationsCatapult/tribble) - Easy-to-use, coverage-guided JVM fuzzing framework. 
+
+[go-fuzz](https://github.com/dvyukov/go-fuzz) - Coverage-guided testing of go packages.
 
 ### Taint Analysis
 *How user input affects the execution*
