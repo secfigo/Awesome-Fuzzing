@@ -5,7 +5,7 @@ Welcome to Awesome Fuzzing [![Awesome](https://cdn.rawgit.com/sindresorhus/aweso
 
 A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
 
-### Table of Contents
+### Contents
 - [Books](#books)
 - [Courses](#courses)
    + [Free](#free)
