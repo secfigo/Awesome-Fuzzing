@@ -127,7 +127,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - by Open Security Research
 
-[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linuxfoundation.org/blog/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - by Emily Ratliff.
+[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linuxfoundation.org/blog/2016/02/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - by Emily Ratliff.
 
 
 ##### From Fuzzing to Exploit:
