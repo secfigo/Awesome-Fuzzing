@@ -155,8 +155,6 @@ Awesome Fuzzing Resources
 
 [Segfaulting Python with afl-fuzz](https://tomforb.es/segfaulting-python-with-afl-fuzz)
 
-[Fuzzing Perl: A Tale of Two American Fuzzy Lops](http://www.geeknik.net/71nvhf1fp)
-
 [使用 AFL-Fuzz 进行 Fuzzing 的实例( AFL vs Binutils )](https://www.evilsocket.net/2015/04/30/fuzzing-with-afl-fuzz-a-practical-example-afl-vs-binutils/)
 
 [Fuzzing 模拟器的重要性](https://mgba.io/2016/09/13/fuzzing-emulators/)
@@ -284,6 +282,8 @@ Awesome Fuzzing Resources
 [syzkaller](https://github.com/google/syzkaller) - 分布式、无监督、基于覆盖度的 Linux 系统调用模糊测试工具
 
 [ansvif](https://oxagast.github.io/ansvif/) - 用于在 C/C++ 程序中查找漏洞的高级跨平台模糊测试框架
+
+[Tribble](https://github.com/SatelliteApplicationsCatapult/tribble) - 易用、覆盖度指导的 JVM 模糊测试框架
 
 <a name="taint-analysis" />
 ### 流分析（用户输入如何影响执行）
