@@ -1,8 +1,6 @@
 Welcome to Awesome Fuzzing [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===================
 
-[![Build Status](https://travis-ci.org/secfigo/Awesome-Fuzzing.svg?branch=master)](https://travis-ci.org/secfigo/Awesome-Fuzzing)
-
 A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
 
 ### Contents
