@@ -1,11 +1,9 @@
 Welcome to Awesome Fuzzing [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===================
 
-[![Build Status](https://travis-ci.org/secfigo/Awesome-Fuzzing.svg?branch=master)](https://travis-ci.org/secfigo/Awesome-Fuzzing)
-
 A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.
 
-### Table of Contents
+### Contents
 - [Books](#books)
 - [Courses](#courses)
    + [Free](#free)
@@ -127,7 +125,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - by Open Security Research
 
-[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linuxfoundation.org/blog/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - by Emily Ratliff.
+[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linuxfoundation.org/blog/2016/02/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - by Emily Ratliff.
 
 
 ##### From Fuzzing to Exploit:
