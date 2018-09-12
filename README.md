@@ -291,6 +291,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [go-fuzz](https://github.com/dvyukov/go-fuzz) - Coverage-guided testing of go packages.
 
+[FExM](https://github.com/fgsect/fexm) - Automated Large-Scale Fuzzing Framework
+
 ### Taint Analysis
 *How user input affects the execution*
 
