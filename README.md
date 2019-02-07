@@ -32,7 +32,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 *Books on fuzzing*
 - [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) by Michael Sutton, Adam Greene, Pedram Amini.
 
-- [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) by Ari Takanen, Charles Miller, and Jared D Demott.
+- [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507) by Ari Takanen, Charles Miller, Jared D Demott and Atte Kettunen.
 
 - [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) by by Gadi Evron and Noam Rathaus.
 
@@ -204,6 +204,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 *Fuzzers which help fuzzing in cloud environments.*
 
 [Cloudfuzzer](https://github.com/ouspg/cloudfuzzer) - Cloud fuzzing framework which makes it possible to easily run automated fuzz-testing in cloud environments.
+
+[ClusterFuzzer](https://google.github.io/clusterfuzz/) - ClusterFuzzer, scalable open source fuzzing infrastructure. It is used by Google for fuzzing Chrome Browser.
 
 ### File Format Fuzzers
 
