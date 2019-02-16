@@ -1,7 +1,6 @@
 ﻿Fuzzing 大合集 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===================
 
-[![Build Status](https://travis-ci.org/secfigo/Awesome-Fuzzing.svg?branch=master)](https://travis-ci.org/secfigo/Awesome-Fuzzing)
 这是一个在学习 fuzzing 的最初阶段最好的有关 fuzzing 的资源合集（书籍、课程、视频、教程等等）
 
 ### Table of Contents
@@ -86,7 +85,7 @@ Awesome Fuzzing Resources
 
 [Fuzzing 101 (2009)](https://vimeo.com/7574602) - Mike Zusman 出品
 
-[Fuzzing - Software Security Course on Coursera](https://www.coursera.org/learn/software-security/lecture/VgyOn/fuzzing) - 马里兰大学出品
+[Fuzzing - Software Security Course on Coursera](https://www.coursera.org/lecture/software-security/fuzzing-VgyOn) - 马里兰大学出品
 
 <a name="conf-talks-tutorials" />
 ### 关于 Fuzzing 的会议讨论/教程
@@ -105,7 +104,7 @@ Awesome Fuzzing Resources
 
 *解释 fuzzing 方法、技术与最佳实践的教程与博客*
 
-[Effective File Format Fuzzing](http://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
+[Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
 [A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Google Zero 项目的最佳论文，描述了如何进行 fuzzing 以及如何构建一个 fuzzer
 
@@ -129,7 +128,7 @@ Awesome Fuzzing Resources
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - Open Security Research 出品
 
-[在 Fuzzing 大型开源项目前要考虑的 7 件事](https://www.linuxfoundation.org/blog/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - Emily Ratliff 
+[在 Fuzzing 大型开源项目前要考虑的 7 件事](https://www.linuxfoundation.org/blog/2016/02/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - Emily Ratliff 
 
 ##### 从 Fuzzing 到 Exploit
 [从 fuzzing 到 0-day](https://blog.techorganic.com/2014/05/14/from-fuzzing-to-0-day/) - Harold Rodriguez(@superkojiman) 出品
@@ -284,6 +283,8 @@ Awesome Fuzzing Resources
 [ansvif](https://oxagast.github.io/ansvif/) - 用于在 C/C++ 程序中查找漏洞的高级跨平台模糊测试框架
 
 [Tribble](https://github.com/SatelliteApplicationsCatapult/tribble) - 易用、覆盖度指导的 JVM 模糊测试框架
+
+[go-fuzz](https://github.com/dvyukov/go-fuzz) - 覆盖度指导的 go 包模糊测试
 
 <a name="taint-analysis" />
 ### 流分析（用户输入如何影响执行）
