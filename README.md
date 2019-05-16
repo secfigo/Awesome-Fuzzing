@@ -194,6 +194,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Z3 - A guide](https://rise4fun.com/z3/tutorial/guide) - Getting Started with Z3: A Guide
 
+##### Building a Feedback Fuzzer (for educational purposes)
+
+[Building A Feedback Fuzzer](https://blog.fadyothman.com/tag/myfuzzer/) - by @fady_othman
 
 ## Tools
 
