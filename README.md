@@ -171,6 +171,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing with AFL Workshop - a set of challenges on real vulnerabilities](https://github.com/ThalesIgnite/afl-training)
 
+[Fuzzing 101 - PHDays](https://github.com/RootUp/PHDays9)
+
 ##### libFuzzer Fuzzer related tutorials
 
 [libFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
