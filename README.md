@@ -213,6 +213,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [ClusterFuzzer](https://google.github.io/clusterfuzz/) - ClusterFuzzer, scalable open source fuzzing infrastructure. It is used by Google for fuzzing Chrome Browser.
 
+[Fuzzit](https://fuzzit.dev) - Fuzzit, Continuous fuzzing as a service platform. Free for open source. used by various open-source projects (systemd, radare2) and close-source projects. To join oss program drop a line at oss@fuzzit.dev
+
 ### File Format Fuzzers
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
