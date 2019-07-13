@@ -397,6 +397,7 @@ https://files.fuzzing-project.org/
 
 [Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - Set of tests for fuzzing engines. Includes different well-known bugs such as Heartbleed, c-ares $100K bug and others.
 
+[Fuzzing Corpus](https://github.com/strongcourage/fuzzing-corpus) - A corpus, including various file formats for fuzzing multiple targets in the fuzzing literature.
 
 ## Anti Fuzzing
 
