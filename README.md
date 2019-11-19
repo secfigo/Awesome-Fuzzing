@@ -402,6 +402,7 @@ https://files.fuzzing-project.org/
 ## Anti Fuzzing
 
 [Introduction to Anti-Fuzzing: A Defence In-Depth Aid](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
+[Fuzzification: Anti-Fuzzing Techniques](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
 
 
 ## Contributing
