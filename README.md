@@ -38,6 +38,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 - [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) by Justin Seitz.
 
+- [The Fuzzing Book](https://www.fuzzingbook.org/) by Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, and Christian Holler.
+
 
 > **Note:** Chapter(s) in the following books are dedicated to fuzzing.
 
