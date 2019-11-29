@@ -407,6 +407,7 @@ https://files.fuzzing-project.org/
 
 [Fuzzification: Anti-Fuzzing Techniques](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
 
+[AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
 
 ## Contributing
 
