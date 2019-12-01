@@ -277,6 +277,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing For Worms](https://github.com/dobin/ffw) - A fuzzing framework for network servers.
 
+[AFL (w/ networking patch)](https://github.com/jdbirdwell/afl) - An unofficial american fuzzy lop capable of network fuzzing
+
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
