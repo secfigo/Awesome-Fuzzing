@@ -34,11 +34,13 @@ Awesome Fuzzing Resources
 
 + [Fuzzing: Brute Force Vulnerability Discovery](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119) 作者： Michael Sutton, Adam Greene, Pedram Amini
 
-+ [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) 作者： Ari Takanen, Charles Miller, and Jared D Demott
++ [Fuzzing for Software Security Testing and Quality Assurance ](https://www.amazon.com/Fuzzing-Software-Security-Assurance-Information/dp/1596932147) 作者： Ari Takanen, Charles Miller, Jared D Demott
 
-+ [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) 作者： Gadi Evron and Noam Rathaus
++ [Open Source Fuzzing Tools](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950) 作者： Gadi Evron, Noam Rathaus
 
 + [Gray Hat Python](https://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) 作者： Justin Seitz
+
++ [The Fuzzing Book](https://www.fuzzingbook.org/) 作者： Andreas Zeller, Rahul Gopinath, Marcel Böhme, Gordon Fraser, Christian Holler.
 
 
 > **Note:** 下列书籍中的部分章节也描述了 fuzzing
@@ -180,11 +182,17 @@ Awesome Fuzzing Resources
 
 [一系列真实漏洞的挑战：使用 AFL 完成模糊测试](https://github.com/ThalesIgnite/afl-training)
 
+[Fuzzing 101 - PHDays](https://github.com/RootUp/PHDays9)
+
 ##### libFuzzer 相关教程
 
 [libFuzzer 教程](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
 
 [如何使用 libFuzzer 对现代 C/C++ 项目进行模糊测试](https://github.com/Dor1s/libfuzzer-workshop)
+
+##### honggfuzz 相关教程
+
+[如何使用 honggfuzz 发现 VLC 中的 Double-Free RCE 漏洞](https://www.pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to/)
 
 ##### Spike Fuzzer 相关教程
 
@@ -201,6 +209,10 @@ Awesome Fuzzing Resources
 
 [Z3 - A guide](https://rise4fun.com/z3/tutorial/guide) - Z3 快速上手指南
 
+##### 构建一个反馈驱动的 Fuzzer
+
+[如何构建一个反馈驱动的 Fuzzer](https://blog.fadyothman.com/tag/myfuzzer/) - by @fady_othman
+
 <a name="tools" />
 
 ## 工具
@@ -213,6 +225,8 @@ Awesome Fuzzing Resources
 *可以在云环境中进行模糊测试的模糊测试工具*
 
 [Cloudfuzzer](https://github.com/ouspg/cloudfuzzer) - 在云环境中自动、便易地进行云 Fuzzing 的框架
+
+[Fuzzit](https://fuzzit.dev) - Fuzzit 是一个 Fuzzing 即服务的平台，被 systemd, radare2 等多个开源\闭源项目使用，想加入请联系 oss@fuzzit.dev
 
 ### 文件格式 Fuzzer
 
@@ -229,6 +243,8 @@ Awesome Fuzzing Resources
 [Shellphish Fuzzer](https://github.com/shellphish/fuzzer) - 一个操纵 AFL 的 Python 接口，可以简单的写入测试用例与其他功能
 
 [TriforceAFL](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2016/june/project-triforce-run-afl-on-everything/) - 一个 AFL 的修正版，支持应用源码无法获得情况下的 fuzzing
+
+[AFLGo](https://github.com/aflgo/aflgo) - 基于 AFL 构建的导向性灰盒 Fuzzing，针对程序特定位置进行模糊测试
 
 [Peach Fuzzer](https://sourceforge.net/projects/peachfuzz/) - 帮助创建传统 dumb 以及小型 fuzzer 的框架
 
@@ -273,6 +289,8 @@ Awesome Fuzzing Resources
 [Mutiny](https://github.com/Cisco-Talos/mutiny-fuzzer) - 通过重放畸变的 PCAP 数据包来对网络进行 Fuzzer
 
 [Fuzzing For Worms](https://github.com/dobin/ffw) - 用于网络服务的 Fuzzing 框架
+
+[AFL (w/ networking patch)](https://github.com/jdbirdwell/afl) - 用于网络 Fuzzing 的非官方版 AFL
 
 ### 浏览器Fuzzer
 
@@ -388,6 +406,8 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 [Fuzzgoat](https://github.com/fuzzstati0n/fuzzgoat) - 对有漏洞的 C 程序模糊测试的工具
 
+[vulnserver](https://github.com/stephenbradshaw/vulnserver) - 用来测试 Fuzzer 的存在漏洞的服务器
+
 ##### fuzzing 期间种子样本文件
 
 https://files.fuzzing-project.org/
@@ -398,11 +418,17 @@ https://files.fuzzing-project.org/
 
 [Fuzzer Test Suite](https://github.com/google/fuzzer-test-suite) - 模糊测试引擎的测试集，包括许多知名的 Bug，如 Heartbleed、c-ares $100K bug 等
 
+[Fuzzing Corpus](https://github.com/strongcourage/fuzzing-corpus) - 包含多种文件格式、用于 Fuzzing 的语料库
+
 <a name="antifuzz"/>
 
-## 反Fuzzing
+## 反 Fuzzing
 
 [Anti-Fuzzing 的介绍：纵深防御的辅助](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
+
+[Fuzzification: 反 Fuzzing 技术](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
+
+[AntiFuzz: 阻止对二进制可执行文件的 Fuzzing](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
 
 <a name="contribution"/>
 
