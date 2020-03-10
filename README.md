@@ -413,6 +413,10 @@ https://files.fuzzing-project.org/
 
 [AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
 
+## Directed Fuzzing
+
+[Awesome Directed Fuzzing](https://github.com/strongcourage/awesome-directed-fuzzing): A curated list of awesome directed fuzzing research papers.
+
 ## Contributing
 
 [Please refer the guidelines at contributing.md for details](Contributing.md).
