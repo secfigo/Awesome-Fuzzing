@@ -22,6 +22,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Essential Tools](#essential-tools)
 - [Vulnerable Applications](#vulnerable-applications)
 - [Anti-Fuzzing](#anti-fuzzing)
+- [Directed-Fuzzing](#directed-fuzzing)
 - [Contributing](#contributing)
 
 
