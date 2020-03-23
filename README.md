@@ -22,6 +22,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
   + [Essential Tools](#essential-tools)
 - [Vulnerable Applications](#vulnerable-applications)
 - [Anti-Fuzzing](#anti-fuzzing)
+- [Directed-Fuzzing](#directed-fuzzing)
 - [Contributing](#contributing)
 
 
@@ -412,6 +413,10 @@ https://files.fuzzing-project.org/
 [Fuzzification: Anti-Fuzzing Techniques](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
 
 [AntiFuzz: Impeding Fuzzing Audits of Binary Executables](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
+
+## Directed Fuzzing
+
+[Awesome Directed Fuzzing](https://github.com/strongcourage/awesome-directed-fuzzing): A curated list of awesome directed fuzzing research papers.
 
 ## Contributing
 
