@@ -148,6 +148,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [Auto generation of Peach pit files/fuzzers](http://doc.netzob.org/en/latest/tutorials/peach.html) - by Frédéric Guihéry, Georges Bossert.
 
 ##### AFL Fuzzer related tutorials
+
+[Fuzzing sockets, part 1: FTP servers](https://securitylab.github.com/research/fuzzing-sockets-FTP)
+
 [Fuzzing workflows; a fuzz job from start to finish](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/) - by @BrandonPrry.
 
 [Fuzzing capstone using AFL persistent mode](https://toastedcornflakes.github.io/articles/fuzzing_capstone_with_afl.html) - by @toasted_flakes
