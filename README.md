@@ -98,6 +98,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [DerbyCon 2016: Fuzzing basics...or how to break software](http://www.irongeek.com/i.php?page=videos/derbycon6/411-fuzzing-basicshow-to-break-software-grid-aka-scott-m)
 
+[Fuzz Theory](https://www.youtube.com/watch?v=5rE8xEg5tXk&list=PLSkhUfcCXvqG6FRTCCxIfoMK6rw3NZvb6) - by Brandon Falk
+
 
 ## Tutorials and Blogs
 
