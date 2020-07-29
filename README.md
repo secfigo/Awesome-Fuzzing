@@ -163,6 +163,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzing sockets, part 1: FTP servers](https://securitylab.github.com/research/fuzzing-sockets-FTP)
 
+[Fuzzing software: common challenges and potential solutions (Part 1) ](https://securitylab.github.com/research/fuzzing-challenges-solutions-1)
+
+[Fuzzing software: advanced tricks (Part 2)](https://securitylab.github.com/research/fuzzing-software-2)
+
 [Fuzzing workflows; a fuzz job from start to finish](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/) - by @BrandonPrry.
 
 [Fuzzing capstone using AFL persistent mode](https://toastedcornflakes.github.io/articles/fuzzing_capstone_with_afl.html) - by @toasted_flakes
@@ -194,6 +198,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ##### libFuzzer Fuzzer related tutorials
 
 [libFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
+
+[Hunting for bugs in VirtualBox (First Take)](http://blog.paulch.ru/2020-07-26-hunting-for-bugs-in-virtualbox-first-take.html)
 
 [libFuzzer Workshop: "Modern fuzzing of C/C++ Projects"](https://github.com/Dor1s/libfuzzer-workshop)
 
