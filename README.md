@@ -269,7 +269,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [MozPeach](https://github.com/MozillaSecurity/peach) - A fork of peach 2.7 by Mozilla Security.
 
-[Failure Observation Engine (FOE)](www.cert.org/vulnerability-analysis/tools/foe.cfm) - mutational file-based fuzz testing tool for windows applications.
+[Failure Observation Engine (FOE)](https://vuls.cert.org/confluence/display/tools/CERT+FOE+-+Failure+Observation+Engine) - mutational file-based fuzz testing tool for windows applications.
 
 [rmadair](http://rmadair.github.io/fuzzer/) - mutation based file fuzzer that uses PyDBG to monitor for signals of interest.
 
