@@ -22,6 +22,7 @@
   + [基本工具（通用）](#基本工具（通用）)
 - [存在漏洞的应用程序](#存在漏洞的应用程序)
 - [反Fuzzing](#反Fuzzing)
+- [导向性Fuzzing](#导向性Fuzzing)
 - [贡献](#贡献)
 
 Awesome Fuzzing Resources
@@ -100,20 +101,27 @@ Awesome Fuzzing Resources
 
 ### 关于 Fuzzing 的会议讨论/教程
 
-[Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - 列表内有许多优质内容
+[攻击反病毒软件的内核驱动](https://github.com/bee13oy/AV_Kernel_Vulns/tree/master/Zer0Con2017)
 
+[Fuzzing Windows 内核 - OffensiveCon 2020](https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf)
 
-[Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - Atte Kettunen 出品
+[Youtube 上关于 Fuzzing 演讲的内容](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - 列表内有许多优质内容
 
-[Coverage-based Greybox Fuzzing as Markov Chain](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
+[浏览器漏洞狩猎](https://vimeo.com/109380793) - Atte Kettunen 出品
+
+[应用马尔科夫链、基于覆盖度的灰盒 Fuzzing](https://www.comp.nus.edu.sg/~mboehme/paper/CCS16.pdf)
 
 [DerbyCon 2016: Fuzzing 如何击溃软件](http://www.irongeek.com/i.php?page=videos/derbycon6/411-fuzzing-basicshow-to-break-software-grid-aka-scott-m)
+
+[Fuzz Theory](https://www.youtube.com/watch?v=5rE8xEg5tXk&list=PLSkhUfcCXvqG6FRTCCxIfoMK6rw3NZvb6)
 
 <a name="tutorials" />
 
 ## 教程与博客
 
 *解释 fuzzing 方法、技术与最佳实践的教程与博客*
+
+[Fuzzing Closed Source PDF Viewers](https://www.gosecure.net/blog/2019/07/30/fuzzing-closed-source-pdf-viewers/)
 
 [Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
@@ -156,6 +164,16 @@ Awesome Fuzzing Resources
 
 ##### AFL Fuzzer 相关教程
 
+[Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://christopher-vella.com/2020/02/28/creating-a-fuzzing-harness-for-foxitreader-9-7-converttopdf-function/)
+
+[通过 Fuzzing Adobe Reader 在 50 天获得 50 个 CVE](https://research.checkpoint.com/2018/50-adobe-cves-in-50-days/)
+
+[Fuzzing sockets 第一部分：FTP servers](https://securitylab.github.com/research/fuzzing-sockets-FTP)
+
+[Fuzzing software 第一部分：常见挑战与解决方案](https://securitylab.github.com/research/fuzzing-challenges-solutions-1)
+
+[Fuzzing software 第二部分：高级技巧](https://securitylab.github.com/research/fuzzing-software-2)
+
 [Fuzzing 工作流程，包含 fuzz 的始末](https://foxglovesecurity.com/2016/03/15/fuzzing-workflows-a-fuzz-job-from-start-to-finish/) - @BrandonPrry 出品
 
 [使用 AFL persistent 模式对 capstone 进行 Fuzzing](https://toastedcornflakes.github.io/articles/fuzzing_capstone_with_afl.html) - @toasted_flakes 出品
@@ -187,6 +205,8 @@ Awesome Fuzzing Resources
 ##### libFuzzer 相关教程
 
 [libFuzzer 教程](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
+
+[狩猎 VirtualBox 的漏洞](http://blog.paulch.ru/2020-07-26-hunting-for-bugs-in-virtualbox-first-take.html)
 
 [如何使用 libFuzzer 对现代 C/C++ 项目进行模糊测试](https://github.com/Dor1s/libfuzzer-workshop)
 
@@ -231,6 +251,12 @@ Awesome Fuzzing Resources
 ### 文件格式 Fuzzer
 
 *那些帮助对像 pdf, mp3, swf 等文件格式进行 fuzzing 的 Fuzzers*
+
+[Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+
+[Newer version of Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+
+[针对 PE 文件进行静态二进制插桩辅助、结合 WinAFL 的 Fuzzer](https://github.com/wmliang/pe-afl)
 
 [MiniFuzz](https://www.microsoft.com/en-sg/download/details.aspx?id=21769) - Microsoft 出品的基础文件格式 fuzzing 工具
 
@@ -291,6 +317,8 @@ Awesome Fuzzing Resources
 [Fuzzing For Worms](https://github.com/dobin/ffw) - 用于网络服务的 Fuzzing 框架
 
 [AFL (w/ networking patch)](https://github.com/jdbirdwell/afl) - 用于网络 Fuzzing 的非官方版 AFL
+
+[AFLNet](https://github.com/aflnet/aflnet) - 用于网络协议的灰盒 Fuzzer（AFL 的扩展）
 
 ### 浏览器Fuzzer
 
@@ -422,13 +450,17 @@ https://files.fuzzing-project.org/
 
 <a name="antifuzz"/>
 
-## 反 Fuzzing
+## 反Fuzzing
 
 [Anti-Fuzzing 的介绍：纵深防御的辅助](https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2014/january/introduction-to-anti-fuzzing-a-defence-in-depth-aid/)
 
 [Fuzzification: 反 Fuzzing 技术](https://www.usenix.org/conference/usenixsecurity19/presentation/jung)
 
 [AntiFuzz: 阻止对二进制可执行文件的 Fuzzing](https://www.usenix.org/conference/usenixsecurity19/presentation/guler)
+
+## 导向性Fuzzing
+
+[Awesome Directed Fuzzing](https://github.com/strongcourage/awesome-directed-fuzzing): 导向性 Fuzzing 研究论文的列表
 
 <a name="contribution"/>
 
