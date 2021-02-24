@@ -311,6 +311,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [AFLNet](https://github.com/aflnet/aflnet) - A Greybox Fuzzer for Network Protocols (an extention of AFL).
 
+[Pulsar](https://github.com/hgascon/pulsar) - Protocol Learning, Simulation and Stateful Fuzzer.
+
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
