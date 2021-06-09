@@ -116,6 +116,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Fuzzing Image Parsing in Windows, Part Two: Uninitialized Memory](https://www.fireeye.com/blog/threat-research/2021/03/fuzzing-image-parsing-in-windows-uninitialized-memory.html)
 
+[Fuzzing the Office Ecosystem](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
+
 [Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
 [A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
@@ -250,6 +252,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ### File Format Fuzzers
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
+
+[Jackalope](https://github.com/googleprojectzero/Jackalope)
 
 [Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
 
