@@ -276,7 +276,7 @@ Awesome Fuzzing Resources
 
 [MozPeach](https://github.com/MozillaSecurity/peac://github.com/MozillaSecurity/peach) - 由 Mozilla Security 开发基于 peach 2.7 版本的分支版本
 
-[Failure Observation Engine (FOE)](http://www.cert.org/vulnerability-analysis/tools/foe.cfm) - 基于畸形文件的 Windows 程序 Fuzzing 工具
+[Failure Observation Engine (FOE)](https://vuls.cert.org/confluence/display/tools/CERT+FOE+-+Failure+Observation+Engine) - 基于畸形文件的 Windows 程序 Fuzzing 工具
 
 [rmadair](http://rmadair.github.io/fuzzer/) - 基于畸形文件的 fuzzer，使用 PyDBG 来监视感兴趣的信号
 
