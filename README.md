@@ -343,6 +343,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [FExM](https://github.com/fgsect/fexm) - Automated Large-Scale Fuzzing Framework
 
+[Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - A coverage-guided, in-process fuzzer for the Java Virtual Machine based on libFuzzer.
+
 ### Taint Analysis
 *How user input affects the execution*
 
