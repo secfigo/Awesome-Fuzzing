@@ -113,6 +113,12 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Fuzzing Closed Source PDF Viewers](https://www.gosecure.net/blog/2019/07/30/fuzzing-closed-source-pdf-viewers/)
 
+[Fuzzing Image Parsing in Windows, Part One: Color Profiles](https://www.fireeye.com/blog/threat-research/2020/09/fuzzing-image-parsing-in-windows-color-profiles.html)
+
+[Fuzzing Image Parsing in Windows, Part Two: Uninitialized Memory](https://www.fireeye.com/blog/threat-research/2021/03/fuzzing-image-parsing-in-windows-uninitialized-memory.html)
+
+[Fuzzing the Office Ecosystem](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
+
 [Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
 [A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Amazing article by Google's Project Zero, describing what it takes to do fuzzing and create fuzzers.
@@ -206,6 +212,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ##### honggfuzz related tutorials
 
+[Fuzzing ImageIO](https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html)
+
 [Double-Free RCE in VLC. A honggfuzz how-to](https://www.pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to/)
 
 ##### Spike Fuzzer related tutorials
@@ -245,6 +253,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ### File Format Fuzzers
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
+
+[Jackalope](https://github.com/googleprojectzero/Jackalope)
 
 [Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
 
