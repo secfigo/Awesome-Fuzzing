@@ -74,6 +74,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Exodus Intelligence - Vulnerability development master class](https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course/)
 
+[Ada Logics - Applied Source Code Fuzzing](https://adalogics.com/training-source-fuzz)
 
 ## Videos
 
@@ -362,6 +363,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [SMT-LIB](http://smtlib.cs.uiowa.edu/) - An international initiative aimed at facilitating research and development in Satisfiability Modulo Theories (SMT)
 
+[Symbolic execution with KLEE: From installation and introduction to bug-finding in open source software](https://adalogics.com/blog/symbolic-execution-with-klee) - A set of four instructional videos introducing KLEE, starting with how to get started with KLEE and ending with a demo that finds memory corruption bugs in real code.
 
 ### References
 
