@@ -421,6 +421,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 
 #### Others
+[AutoHarness] (https://github.com/parikhakshat/autoharness) - Automatically generates fuzzing harnesses for you just by specifying a library or executable.
 
 [ltrace](http://ltrace.org/) - Intercepts library calls 
 
