@@ -134,9 +134,9 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 [A 15 minute introduction to fuzzing](https://www.mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing/) - by folks at MWR Security.
 
 > **Note:** Folks at fuzzing.info has done a great job of collecting some awesome links, I'm not going to duplicate their work. I will add papers missed by them and from 2015 and 2016.
-[Fuzzing Papers](https://fuzzing.info/papers/) - by fuzzing.info
+[Fuzzing Papers](https://fuzzinginfo.wordpress.com/papers/) - by fuzzing.info
 
-[Fuzzing Blogs](https://fuzzing.info/resources/) - by fuzzing.info 
+[Fuzzing Blogs and Books](https://fuzzinginfo.wordpress.com/resources/) - by fuzzing.info 
 
 [Root Cause Analysis of the Crash during Fuzzing](
 https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team. 
