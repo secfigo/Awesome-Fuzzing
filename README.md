@@ -268,7 +268,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [AFL Fuzzer (Linux only)]( http://lcamtuf.coredump.cx/afl/) - American Fuzzy Lop Fuzzer by Michal Zalewski aka lcamtuf
 
-[Win AFL](https://github.com/ivanfratric/winafl) - A fork of AFL for fuzzing Windows binaries by Ivan Fratic
+[Win AFL](https://github.com/googleprojectzero/winafl) - A fork of AFL for fuzzing Windows binaries
 
 [Shellphish Fuzzer](https://github.com/shellphish/fuzzer) - A Python interface to AFL, allowing for easy injection of testcases and other functionality.
 
