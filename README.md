@@ -76,6 +76,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Ada Logics - Applied Source Code Fuzzing](https://adalogics.com/training-source-fuzz)
 
+[FuzzingLabs Academy (C/C++, Rust, Go fuzzing)](https://academy.fuzzinglabs.com/)
+
 ## Videos
 
 *Videos talking about fuzzing techniques, tools and best practices*
