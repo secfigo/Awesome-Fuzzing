@@ -332,6 +332,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Pulsar](https://github.com/hgascon/pulsar) - Protocol Learning, Simulation and Stateful Fuzzer.
 
+[Kitty](https://github.com/cisco-sas/kitty) - Kitty is an open-source modular and extensible fuzzing framework and it's goal is to fuzz proprietary and esoteric protocols.
+
+
+
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
