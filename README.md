@@ -113,6 +113,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 *Tutorials and blogs which explain methodology, techniques and best practices of fuzzing*
 
+[Fuzzing WeChat’s Wxam Parser](https://www.signal-labs.com/blog/fuzzing-wechats-wxam-parser)
+
 [ARMored CoreSight: Towards Efficient Binary-only Fuzzing](https://ricercasecurity.blogspot.com/2021/11/armored-coresight-towards-efficient.html)
 
 [Fuzzing Microsoft's RDP Client using Virtual Channels: Overview & Methodology](https://thalium.github.io/blog/posts/fuzzing-microsoft-rdp-client-using-virtual-channels/)
@@ -124,6 +126,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 [Fuzzing Image Parsing in Windows, Part Two: Uninitialized Memory](https://www.mandiant.com/resources/fuzzing-image-parsing-in-windows-uninitialized-memory)
 
 [Fuzzing Image Parsing in Windows, Part Three: RAW and HEIF](https://www.mandiant.com/resources/fuzzing-image-parsing-three)
+
+[Fuzzing Image Parsing in Windows, Part Four: More HEIF](https://www.mandiant.com/resources/fuzzing-image-parsing-windows-part-four)
 
 [Fuzzing the Office Ecosystem](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
 
@@ -260,15 +264,15 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ### File Format Fuzzers
 
-*Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
+*Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.*
 
-[Jackalope](https://github.com/googleprojectzero/Jackalope)
+[wtf](https://github.com/0vercl0k/wtf) - wtf is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and / or kernel-mode targets running on Microsoft Windows
 
-[Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+[Jackalope](https://github.com/googleprojectzero/Jackalope) - Binary, coverage-guided fuzzer for Windows and macOS
 
-[Newer version of Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+[Rehepapp](https://github.com/JaanusKaapPublic/Rehepapp) - New improved corpus distillation toolset that has helped to find tens of vulnerabilities in MS and Adobe products
 
-[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl)
+[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl) - pe-afl combines static binary instrumentation on PE binary and WinAFL
 
 [MiniFuzz - Wayback Machine link](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Basic file format fuzzing tool by Microsoft. (No longer available on Microsoft website).
 
