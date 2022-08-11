@@ -262,6 +262,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzit](https://fuzzit.dev) - Fuzzit, Continuous fuzzing as a service platform. Free for open source. used by various open-source projects (systemd, radare2) and close-source projects. To join oss program drop a line at oss@fuzzit.dev
 
+### Firmware Fuzzers
+
+[fuzzware](https://github.com/fuzzware-fuzzer/fuzzware/) - Fuzzware is a project for automated, self-configuring fuzzing of firmware images
+
 ### File Format Fuzzers
 
 *Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.*
