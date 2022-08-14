@@ -346,6 +346,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ### Misc 
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
 
+[trapfuzzer](https://github.com/hac425xxx/trapfuzzer) - An coverage fuzzer base breakpoint
+
 [Choronzon](https://github.com/CENSUS/choronzon) - An evolutionary knowledge-based fuzzer
 
 [QuickFuzz](https://github.com/CIFASIS/QuickFuzz) - A tool written in Haskell designed for testing un-expected inputs of common file formats on third-party software, taking advantage of off-the-shelf, well known fuzzers.
