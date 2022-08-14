@@ -340,6 +340,14 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Pulsar](https://github.com/hgascon/pulsar) - Protocol Learning, Simulation and Stateful Fuzzer.
 
+### Binary Rewrite Fuzzers
+
+*Binary rewriting is a general technique to modify existing executable programs, typically to insert instrumentation of some kind.*
+
+[retrowrite](https://github.com/HexHive/retrowrite) - Retrowrite is a static binary rewriter for x64 and aarch64. It works without heuristics, does not introduce overhead and uses the symbolization technique (also known as reassemblable assembly) to insert instrumentation to binaries without the need for source code.
+
+[e9patch](https://github.com/GJDuck/e9patch) - E9Patch is a powerful static binary rewriting tool for x86_64 Linux ELF binaries.
+
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
