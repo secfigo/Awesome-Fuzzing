@@ -276,8 +276,6 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Rehepapp](https://github.com/JaanusKaapPublic/Rehepapp) - New improved corpus distillation toolset that has helped to find tens of vulnerabilities in MS and Adobe products
 
-[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl) - pe-afl combines static binary instrumentation on PE binary and WinAFL
-
 [MiniFuzz - Wayback Machine link](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Basic file format fuzzing tool by Microsoft. (No longer available on Microsoft website).
 
 [BFF from CERT](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=507974) - Basic Fuzzing Framework for file formats.
@@ -347,6 +345,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 [retrowrite](https://github.com/HexHive/retrowrite) - Retrowrite is a static binary rewriter for x64 and aarch64. It works without heuristics, does not introduce overhead and uses the symbolization technique (also known as reassemblable assembly) to insert instrumentation to binaries without the need for source code.
 
 [e9patch](https://github.com/GJDuck/e9patch) - E9Patch is a powerful static binary rewriting tool for x86_64 Linux ELF binaries.
+
+[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl) - pe-afl combines static binary instrumentation on PE binary and WinAFL.
 
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
