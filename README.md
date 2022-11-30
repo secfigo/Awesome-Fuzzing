@@ -272,6 +272,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [wtf](https://github.com/0vercl0k/wtf) - wtf is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and / or kernel-mode targets running on Microsoft Windows
 
+[hyperpom](https://github.com/Impalabs/hyperpom) - AArch64 fuzzer based on the Apple Silicon hypervisor
+
 [Jackalope](https://github.com/googleprojectzero/Jackalope) - Binary, coverage-guided fuzzer for Windows and macOS
 
 [Rehepapp](https://github.com/JaanusKaapPublic/Rehepapp) - New improved corpus distillation toolset that has helped to find tens of vulnerabilities in MS and Adobe products
@@ -346,7 +348,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [e9patch](https://github.com/GJDuck/e9patch) - E9Patch is a powerful static binary rewriting tool for x86_64 Linux ELF binaries.
 
-[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl) - pe-afl combines static binary instrumentation on PE binary and WinAFL.
+[pe-afl](https://github.com/wmliang/pe-afl) - pe-afl combines static binary instrumentation on PE binary and WinAFL.
+
+[peafl64](https://github.com/Sentinel-One/peafl64) - Static Binary Instrumentation tool for Windows x64 executables.
 
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
