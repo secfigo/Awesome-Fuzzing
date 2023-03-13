@@ -372,6 +372,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - A coverage-guided, in-process fuzzer for the Java Virtual Machine based on libFuzzer.
 
+[WebGL Fuzzer](https://github.com/ant4g0nist/webgl-fuzzer) - WebGL Fuzzer
+
+
 ### Taint Analysis
 *How user input affects the execution*
 
