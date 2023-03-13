@@ -302,6 +302,11 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [grammarinator](https://github.com/renatahodovan/grammarinator) - Fuzzing tool for file formats based on ANTLR v4 grammars (lots of grammars already available from the ANTLR project).
 
+[Sloth](https://github.com/ant4g0nist/sloth) - Sloth 🦥 is a coverage guided fuzzing framework for fuzzing Android Native libraries that makes use of libFuzzer and QEMU user-mode emulation.
+
+[ManuFuzzer](https://github.com/ant4g0nist/ManuFuzzer) - Binary code-coverage fuzzer for macOS, based on libFuzzer and LLVM.
+
+
 ### Network Protocol Fuzzers
 
 *Fuzzers which helps in fuzzing applications which use network based protocals like HTTP, SSH, SMTP etc.,*
@@ -334,6 +339,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
+[Fuzzinator](https://github.com/renatahodovan/fuzzinator) - Fuzzinator Random Testing Framework
+[Grizzly](https://github.com/MozillaSecurity/grizzly) - A cross-platform browser fuzzing framework
+
 
 ### Misc 
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
