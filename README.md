@@ -56,7 +56,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 *Courses/Training videos on fuzzing*
 
 
-### Free  
+### Free
 
 [NYU Poly ( see videos for more )](https://vimeo.com/5236104 ) - Made available freely by Dan Guido.
 
@@ -64,7 +64,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Modern Binary Exploitation ( RPISEC ) - Chapter 15 ](https://github.com/RPISEC/MBE) - by RPISEC.
 
-[Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - by W. Owen Redwood and Prof. Xiuwen Liu. 
+[Offensive Computer Security - Week 6](http://www.cs.fsu.edu/~redwood/OffensiveComputerSecurity/lectures.html) - by W. Owen Redwood and Prof. Xiuwen Liu.
 
 ### Paid
 
@@ -98,7 +98,7 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [Fuzzing the Windows Kernel - OffensiveCon 2020](https://github.com/yoava333/presentations/blob/master/Fuzzing%20the%20Windows%20Kernel%20-%20OffensiveCon%202020.pdf)
 
-[Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos. 
+[Youtube Playlist of various fuzzing talks and presentations ](https://www.youtube.com/playlist?list=PLtPrYlwXDImiO_hzK7npBi4eKQQBgygLD) - Lots of good content in these videos.
 
 [Browser bug hunting - Memoirs of a last man standing](https://vimeo.com/109380793) - by Atte Kettunen
 
@@ -139,40 +139,41 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [A gentle introduction to fuzzing C++ code with AFL and libFuzzer](http://jefftrull.github.io/c++/clang/llvm/fuzzing/sanitizer/2015/11/27/fuzzing-with-sanitizers.html) - by Jeff Trull.
 
-[A 15 minute introduction to fuzzing](https://www.mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing/) - by folks at MWR Security.
+[A 15 minute introduction to fuzzing](https://web.archive.org/web/20161129095601/https://www.mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing/) - by folks at MWR Security.
 
 > **Note:** Folks at fuzzing.info has done a great job of collecting some awesome links, I'm not going to duplicate their work. I will add papers missed by them and from 2015 and 2016.
 [Fuzzing Papers](https://fuzzinginfo.wordpress.com/papers/) - by fuzzing.info
 
-[Fuzzing Blogs and Books](https://fuzzinginfo.wordpress.com/resources/) - by fuzzing.info 
+[Fuzzing Blogs and Books](https://fuzzinginfo.wordpress.com/resources/) - by fuzzing.info
 
 [Root Cause Analysis of the Crash during Fuzzing](
-https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team. 
+https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team.
+
 [Root cause analysis of integer flow](https://www.corelan.be/index.php/2013/07/02/root-cause-analysis-integer-overflows/) - by Corelan Team.
 
 [Creating custom peach fuzzer publishers](http://blog.opensecurityresearch.com/2014/01/creating-custom-peach-fuzzer-publishers.html) - by Open Security Research
 
-[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linuxfoundation.org/blog/2016/02/7-things-to-consider-before-fuzzing-a-large-open-source-project/) - by Emily Ratliff.
+[7 Things to Consider Before Fuzzing a Large Open Source Project](https://www.linux.com/news/7-things-consider-fuzzing-large-open-source-project/) - by Emily Ratliff.
 
 
 ##### From Fuzzing to Exploit:
 [From fuzzing to 0-day](https://blog.techorganic.com/2014/05/14/from-fuzzing-to-0-day/) - by Harold Rodriguez(@superkojiman).
 
-[From crash to exploit](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team. 
+[From crash to exploit](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - by Corelan Team.
 
 ##### Peach Fuzzer related tutorials
 
-[Getting Started with Peach](http://community.peachfuzzer.com/v2/PeachQuickstart.html)
+[Peach Fuzzer Introductionh](https://peachtech.gitlab.io/peach-fuzzer-community/Introduction.html)
 
 [Fuzzing with Peach Part 1](http://www.flinkd.org/fuzzing-with-peach-part-1/) - by Jason Kratzer of corelan team
 
 [Fuzzing with Peach Part 2](http://www.flinkd.org/fuzzing-with-peach-part-2-fixups-2/) - by Jason Kratzer of corelan team.
 
-[Auto generation of Peach pit files/fuzzers](http://doc.netzob.org/en/latest/tutorials/peach.html) - by Frédéric Guihéry, Georges Bossert.
+[Auto generation of Peach pit files/fuzzers](http://web.archive.org/web/20181003092741/http://doc.netzob.org/en/latest/tutorials/peach.html) - by Frédéric Guihéry, Georges Bossert.
 
 ##### AFL Fuzzer related tutorials
 
-[Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://christopher-vella.com/2020/02/28/creating-a-fuzzing-harness-for-foxitreader-9-7-converttopdf-function/)
+[Creating a fuzzing harness for FoxitReader 9.7 ConvertToPDF Function](https://www.signal-labs.com/blog/foxit-97-fuzz)
 
 [50 CVEs in 50 Days: Fuzzing Adobe Reader](https://research.checkpoint.com/2018/50-adobe-cves-in-50-days/)
 
@@ -194,7 +195,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Segfaulting Python with afl-fuzz](https://tomforb.es/segfaulting-python-with-afl-fuzz)
 
-[Fuzzing With AFL-Fuzz, a Practical Example ( AFL vs Binutils )](https://www.evilsocket.net/2015/04/30/fuzzing-with-afl-fuzz-a-practical-example-afl-vs-binutils/)
+[Fuzzing With AFL-Fuzz, a Practical Example ( AFL vs Binutils )](https://www.evilsocket.net/2015/04/30/Fuzzing-with-AFL-Fuzz-a-Practical-Example-AFL-vs-binutils/)
 
 [The Importance of Fuzzing...Emulators?](https://mgba.io/2016/09/13/fuzzing-emulators/)
 
@@ -212,7 +213,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ##### libFuzzer Fuzzer related tutorials
 
-[libFuzzer Tutorial](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
+[libFuzzer Tutorial](https://github.com/google/fuzzing/blob/master/tutorial/libFuzzerTutorial.md)
 
 [Hunting for bugs in VirtualBox (First Take)](http://blog.paulch.ru/2020-07-26-hunting-for-bugs-in-virtualbox-first-take.html)
 
@@ -238,7 +239,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ##### SMT/SAT solver tutorials
 
-[Z3 - A guide](https://rise4fun.com/z3/tutorial/guide) - Getting Started with Z3: A Guide
+[Z3 - A guide](https://www.philipzucker.com/z3-rise4fun/guide.html) - Getting Started with Z3: A Guide
 
 ##### Building a Feedback Fuzzer (for educational purposes)
 
@@ -312,9 +313,9 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [boofuzz](https://github.com/jtpereyda/boofuzz) -  A fork and successor of Sulley framework.
 
-[Spike](http://www.immunitysec.com/downloads/SPIKE2.9.tgz) - A fuzzer development framework like sulley, a predecessor of sulley. 
+[Spike](http://www.immunitysec.com/downloads/SPIKE2.9.tgz) - A fuzzer development framework like sulley, a predecessor of sulley.
 
-[Metasploit Framework](https://github.com/rapid7/metasploit-framework) - A framework which contains some fuzzing capabilities via Auxiliary modules. 
+[Metasploit Framework](https://github.com/rapid7/metasploit-framework) - A framework which contains some fuzzing capabilities via Auxiliary modules.
 
 [Nightmare](https://github.com/joxeankoret/nightmare) - A distributed fuzzing testing suite with web administration, supports fuzzing using network protocols.
 
@@ -335,7 +336,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 
-### Misc 
+### Misc
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
 
 [Choronzon](https://github.com/CENSUS/choronzon) - An evolutionary knowledge-based fuzzer
@@ -356,7 +357,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [ansvif](https://oxagast.github.io/ansvif/) - An advanced cross platform fuzzing framework designed to find vulnerabilities in C/C++ code.
 
-[Tribble](https://github.com/SatelliteApplicationsCatapult/tribble) - Easy-to-use, coverage-guided JVM fuzzing framework. 
+[Tribble](https://github.com/SatelliteApplicationsCatapult/tribble) - Easy-to-use, coverage-guided JVM fuzzing framework.
 
 [go-fuzz](https://github.com/dvyukov/go-fuzz) - Coverage-guided testing of go packages.
 
@@ -386,7 +387,7 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 ### References
 
 I haven't included some of the legends like AxMan, please refer the following link for more information.
-https://www.ee.oulu.fi/research/ouspg/Fuzzers 
+https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 
 ### Essential Tools
@@ -394,7 +395,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 *Tools of the trade for exploit developers, reverse engineers*
 
 
-#### Debuggers 
+#### Debuggers
 
 
 [Windbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) - The preferred debugger by exploit writers.
@@ -430,7 +431,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 #### Others
 
-[ltrace](http://ltrace.org/) - Intercepts library calls 
+[ltrace](http://ltrace.org/) - Intercepts library calls
 
 [strace](https://sourceforge.net/projects/strace/) - Intercepts system calls
 
@@ -475,7 +476,7 @@ https://files.fuzzing-project.org/
 
 [Please refer the guidelines at contributing.md for details](Contributing.md).
 
-Thanks to the following folks who made contributions to this project. 
+Thanks to the following folks who made contributions to this project.
 + [Tim Strazzere](https://twitter.com/timstrazz)
 + [jksecurity](https://github.com/jksecurity)
 + [and these awesome people](https://github.com/secfigo/Awesome-Fuzzing/graphs/contributors)
