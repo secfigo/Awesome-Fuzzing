@@ -78,6 +78,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 [FuzzingLabs Academy (C/C++, Rust, Go fuzzing)](https://academy.fuzzinglabs.com/)
 
+[Signal Labs - Vulnerability Research & Fuzzing](https://signal-labs.com/trainings/vulnerability-research-fuzzing/)
+
 ## Videos
 
 *Videos talking about fuzzing techniques, tools and best practices*
