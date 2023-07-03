@@ -364,6 +364,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - A coverage-guided, in-process fuzzer for the Java Virtual Machine based on libFuzzer.
 
+[fast-check](https://fast-check.dev/) - A fuzzer tool written in TypeScript and designed to run un-expected inputs against JavaScript code.
+
 ### Taint Analysis
 *How user input affects the execution*
 
