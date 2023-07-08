@@ -115,6 +115,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 
 *Tutorials and blogs which explain methodology, techniques and best practices of fuzzing*
 
+[Fuzzing WeChat’s Wxam Parser](https://www.signal-labs.com/blog/fuzzing-wechats-wxam-parser)
+
 [ARMored CoreSight: Towards Efficient Binary-only Fuzzing](https://ricercasecurity.blogspot.com/2021/11/armored-coresight-towards-efficient.html)
 
 [Fuzzing Microsoft's RDP Client using Virtual Channels: Overview & Methodology](https://thalium.github.io/blog/posts/fuzzing-microsoft-rdp-client-using-virtual-channels/)
@@ -126,6 +128,8 @@ A curated list of fuzzing resources ( Books, courses - free and paid, videos, to
 [Fuzzing Image Parsing in Windows, Part Two: Uninitialized Memory](https://www.mandiant.com/resources/fuzzing-image-parsing-in-windows-uninitialized-memory)
 
 [Fuzzing Image Parsing in Windows, Part Three: RAW and HEIF](https://www.mandiant.com/resources/fuzzing-image-parsing-three)
+
+[Fuzzing Image Parsing in Windows, Part Four: More HEIF](https://www.mandiant.com/resources/fuzzing-image-parsing-windows-part-four)
 
 [Fuzzing the Office Ecosystem](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
 
@@ -261,17 +265,21 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Fuzzit](https://fuzzit.dev) - Fuzzit, Continuous fuzzing as a service platform. Free for open source. used by various open-source projects (systemd, radare2) and close-source projects. To join oss program drop a line at oss@fuzzit.dev
 
+### Firmware Fuzzers
+
+[fuzzware](https://github.com/fuzzware-fuzzer/fuzzware/) - Fuzzware is a project for automated, self-configuring fuzzing of firmware images
+
 ### File Format Fuzzers
 
-*Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.,*
+*Fuzzers which helps in fuzzing file formats like pdf, mp3, swf etc.*
 
-[Jackalope](https://github.com/googleprojectzero/Jackalope)
+[wtf](https://github.com/0vercl0k/wtf) - wtf is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and / or kernel-mode targets running on Microsoft Windows
 
-[Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+[hyperpom](https://github.com/Impalabs/hyperpom) - AArch64 fuzzer based on the Apple Silicon hypervisor
 
-[Newer version of Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
+[Jackalope](https://github.com/googleprojectzero/Jackalope) - Binary, coverage-guided fuzzer for Windows and macOS
 
-[pe-afl combines static binary instrumentation on PE binary and WinAFL](https://github.com/wmliang/pe-afl)
+[Rehepapp](https://github.com/JaanusKaapPublic/Rehepapp) - New improved corpus distillation toolset that has helped to find tens of vulnerabilities in MS and Adobe products
 
 [MiniFuzz - Wayback Machine link](https://web.archive.org/web/20140512203517/http://download.microsoft.com/download/D/6/E/D6EDC908-A1D7-4790-AB0B-66A8B35CD931/MiniFuzzSetup.msi) - Basic file format fuzzing tool by Microsoft. (No longer available on Microsoft website).
 
@@ -340,6 +348,18 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Pulsar](https://github.com/hgascon/pulsar) - Protocol Learning, Simulation and Stateful Fuzzer.
 
+### Binary Rewrite Fuzzers
+
+*Binary rewriting is a general technique to modify existing executable programs, typically to insert instrumentation of some kind.*
+
+[retrowrite](https://github.com/HexHive/retrowrite) - Retrowrite is a static binary rewriter for x64 and aarch64. It works without heuristics, does not introduce overhead and uses the symbolization technique (also known as reassemblable assembly) to insert instrumentation to binaries without the need for source code.
+
+[e9patch](https://github.com/GJDuck/e9patch) - E9Patch is a powerful static binary rewriting tool for x86_64 Linux ELF binaries.
+
+[pe-afl](https://github.com/wmliang/pe-afl) - pe-afl combines static binary instrumentation on PE binary and WinAFL.
+
+[peafl64](https://github.com/Sentinel-One/peafl64) - Static Binary Instrumentation tool for Windows x64 executables.
+
 ### Browser Fuzzing
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
 [Fuzzinator](https://github.com/renatahodovan/fuzzinator) - Fuzzinator Random Testing Framework
@@ -348,6 +368,8 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 ### Misc
 *Other notable fuzzers like Kernel Fuzzers, general purpose fuzzer etc.,*
+
+[trapfuzzer](https://github.com/hac425xxx/trapfuzzer) - An coverage fuzzer base breakpoint
 
 [Choronzon](https://github.com/CENSUS/choronzon) - An evolutionary knowledge-based fuzzer
 
