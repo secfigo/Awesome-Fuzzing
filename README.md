@@ -400,6 +400,10 @@ https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruptio
 
 [Symbolic execution with KLEE: From installation and introduction to bug-finding in open source software](https://adalogics.com/blog/symbolic-execution-with-klee) - A set of four instructional videos introducing KLEE, starting with how to get started with KLEE and ending with a demo that finds memory corruption bugs in real code.
 
+### Crash Triaging
+
+[CASR](https://github.com/ispras/casr) - Collect crash (or UndefinedBehaviorSanitizer error) reports, triage, and estimate severity. Supports C/C++/Go/Rust/Python/Java/x86/RISC-V/AARCH64/libFuzzer/AFL++/go-fuzz/Atheris/Jazzer/DefectDojo.
+
 ### References
 
 I haven't included some of the legends like AxMan, please refer the following link for more information.
