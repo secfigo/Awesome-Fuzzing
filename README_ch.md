@@ -76,9 +76,13 @@ Awesome Fuzzing Resources
 
 [Offensive Security, Cracking The Perimeter ( CTP ) and Advanced Windows Exploitation ( AWE )](https://www.offensive-security.com/information-security-training/)
 
-[SANS 660/760 Advanced Exploit Development for Penetration Testers](https://www.sans.org/course/advanced-exploit-development-penetration-testers)
+[SANS 660/760 渗透测试人员的高级漏洞利用开发课](https://www.sans.org/course/advanced-exploit-development-penetration-testers)
 
 [Exodus Intelligence - 漏洞挖掘大师级课程](https://blog.exodusintel.com/2016/05/18/exodus-intelligence-2016-training-course/)
+
+[Ada Logics - 应用源码 Fuzzing](https://adalogics.com/training-source-fuzz)
+
+[FuzzingLabs 学院（C/C++、Rust、Go）](https://academy.fuzzinglabs.com/)
 
 <a name="videos" />
 
@@ -121,9 +125,21 @@ Awesome Fuzzing Resources
 
 *解释 fuzzing 方法、技术与最佳实践的教程与博客*
 
-[Fuzzing Closed Source PDF Viewers](https://www.gosecure.net/blog/2019/07/30/fuzzing-closed-source-pdf-viewers/)
+[ARMored CoreSight: 面向纯二进制的高效 Fuzzing](https://ricercasecurity.blogspot.com/2021/11/armored-coresight-towards-efficient.html)
 
-[Effective File Format Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
+[使用 Virtual Channels 对微软 RDP 客户端进行模糊测试](https://thalium.github.io/blog/posts/fuzzing-microsoft-rdp-client-using-virtual-channels/)
+
+[Fuzzing 闭源 PDF 阅读器](https://www.gosecure.net/blog/2019/07/30/fuzzing-closed-source-pdf-viewers/)
+
+[Fuzzing Windows 图片解析一：颜色配置](https://www.mandiant.com/resources/fuzzing-image-parsing-in-windows-color-profiles)
+
+[Fuzzing Windows 图片解析二：未初始化的内存](https://www.mandiant.com/resources/fuzzing-image-parsing-in-windows-uninitialized-memory)
+
+[Fuzzing Windows 图片解析三：RAW 与 HEIF](https://www.mandiant.com/resources/fuzzing-image-parsing-three)
+
+[Fuzzing Office 生态](https://research.checkpoint.com/2021/fuzzing-the-office-ecosystem/)
+
+[有效的文件 Fuzzing](https://j00ru.vexillium.org/slides/2016/blackhat.pdf) - Mateusz “j00ru” Jurczyk @ Black Hat Europe 2016, London
 
 [A year of Windows kernel font fuzzing Part-1 the results](https://googleprojectzero.blogspot.com/2016/06/a-year-of-windows-kernel-font-fuzzing-1_27.html) - Google Zero 项目的最佳论文，描述了如何进行 fuzzing 以及如何构建一个 fuzzer
 
@@ -138,9 +154,9 @@ Awesome Fuzzing Resources
 [15 分钟介绍 fuzzing](https://www.mwrinfosecurity.com/our-thinking/15-minute-guide-to-fuzzing/) - MWR Security 出品
 
 > **Note:** Folks at fuzzing.info 收集了很多非常有用的链接，我没有重复他们的工作，我只是整理了 2015 年到 2016 年间他们没有收录的文章
-[Fuzzing Papers](https://fuzzing.info/papers/) - fuzzing.info 出品
+[Fuzzing Papers](https://fuzzinginfo.wordpress.com/papers/) - fuzzing.info 出品
 
-[Fuzzing 博客](https://fuzzing.info/resources/) - fuzzing.info 出品 
+[Fuzzing 博客](https://fuzzinginfo.wordpress.com/resources/) - fuzzing.info 出品 
 
 [Root Cause Analysis of the Crash during Fuzzing](https://www.corelan.be/index.php/2013/02/26/root-cause-analysis-memory-corruption-vulnerabilities/) - Corelan Team 出品
 [Root cause analysis of integer flow](https://www.corelan.be/index.php/2013/07/02/root-cause-analysis-integer-overflows/) - Corelan Team 出品
@@ -212,6 +228,8 @@ Awesome Fuzzing Resources
 
 ##### honggfuzz 相关教程
 
+[Fuzzing ImageIO](https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html)
+
 [如何使用 honggfuzz 发现 VLC 中的 Double-Free RCE 漏洞](https://www.pentestpartners.com/security-blog/double-free-rce-in-vlc-a-honggfuzz-how-to/)
 
 ##### Spike Fuzzer 相关教程
@@ -252,6 +270,8 @@ Awesome Fuzzing Resources
 
 *那些帮助对像 pdf, mp3, swf 等文件格式进行 fuzzing 的 Fuzzers*
 
+[Jackalope](https://github.com/googleprojectzero/Jackalope)
+
 [Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
 
 [Newer version of Rehepapp](https://github.com/FoxHex0ne/Rehepapp)
@@ -264,7 +284,7 @@ Awesome Fuzzing Resources
 
 [AFL Fuzzer (Linux only)]( http://lcamtuf.coredump.cx/afl/) - Michal Zalewski aka lcamtuf 开发的 Fuzzer
 
-[Win AFL](https://github.com/ivanfratric/winafl) - Ivan Fratic 开发的针对 Windows 二进制程序 fuzzing 的 AFL 分支版本
+[Win AFL](https://github.com/googleprojectzero/winafl) - 针对 Windows 二进制程序 fuzzing 的 AFL 分支版本
 
 [Shellphish Fuzzer](https://github.com/shellphish/fuzzer) - 一个操纵 AFL 的 Python 接口，可以简单的写入测试用例与其他功能
 
@@ -320,6 +340,8 @@ Awesome Fuzzing Resources
 
 [AFLNet](https://github.com/aflnet/aflnet) - 用于网络协议的灰盒 Fuzzer（AFL 的扩展）
 
+[Pulsar](https://github.com/hgascon/pulsar) - 协议模拟、有状态 Fuzzer
+
 ### 浏览器Fuzzer
 
 [BFuzz](https://github.com/RootUp/BFuzz) - An input based, browser fuzzing framework.
@@ -350,6 +372,10 @@ Awesome Fuzzing Resources
 
 [go-fuzz](https://github.com/dvyukov/go-fuzz) - 覆盖度指导的 go 包模糊测试
 
+[FExM](https://github.com/fgsect/fexm) - 自动化大规模 Fuzzing 框架
+
+[Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - 基于 libFuzzer、基于覆盖度的 JVM 模糊测试框架
+
 <a name="taint-analysis" />
 
 ### 流分析（用户输入如何影响执行）
@@ -369,6 +395,8 @@ Awesome Fuzzing Resources
 [Z3](https://github.com/Z3Prover/z3)
 
 [SMT-LIB](http://smtlib.cs.uiowa.edu/) 
+
+[使用 KLEE 进行符号执行](https://adalogics.com/blog/symbolic-execution-with-klee) - 四个介绍 KLEE 的教学视频，介绍如何开始使用 KLEE 并在实际代码中发现内存损坏漏洞。
 
 ### 参考
 
