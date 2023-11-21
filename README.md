@@ -432,6 +432,7 @@ https://www.ee.oulu.fi/research/ouspg/Fuzzers
 
 [Radare2](http://www.radare.org/r/) - Framework for reverse-engineering and analyzing binaries.
 
+[HyperDbg](https://github.com/HyperDbg/) - An open-source hypervisor-assisted, user-mode, and kernel-mode Windows debugger designed for analyzing, fuzzing, and reversing.
 
 #### Disassemblers and some more
 
